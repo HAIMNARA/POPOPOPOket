@@ -33,9 +33,11 @@ LLM 에이전트가 mGBA에서 구동 중인 **포켓몬 레드(Game Boy)** 를 
 | [04 · RAM 맵 & 조작 레퍼런스](docs/04-ram-and-controls.md) | 포켓몬 레드 WRAM 주소, 키 매핑, 방향 코드, 맵 ID |
 | [05 · 자동조종 & 복구 로직](docs/05-autopilot-and-recovery.md) | fast-flow, stuck-memory, supervisor, 다층 아키텍처, 피드백 루프 |
 | [06 · 수동 플레이 툴킷](docs/06-manual-play-toolkit.md) | `.omo` PowerShell 드라이버(키 입력 + 스크린샷) 사용법 |
-| [07 · 함정 아카이브](docs/07-pitfalls-archive.md) | 재발 방지 교훈 14건 (풀숲 오인식, 콜 호스트 끊김 등 회의 도출 포함) |
-| [08 · 회의 리뷰 (2026-06-06)](docs/08-meeting-review-2026-06-06.md) | **신규** — 자동화 발표 세션 체계화, 참가자별 아키텍처, 핵심 인사이트 |
-| [09 · 향후 로드맵](docs/09-next-roadmap.md) | **신규** — pyboy 도입, 포획 이벤트, 완전 자동화 에이전트, 기술 스택 진화 |
+| [07 · 함정 아카이브](docs/07-pitfalls-archive.md) | 재발 방지 교훈 15건 (스크립트 무한루프 사고, 풀숲 오인식 등) |
+| [08 · 회의 리뷰 (2026-06-06)](docs/08-meeting-review-2026-06-06.md) | 자동화 발표 세션 체계화, 참가자별 아키텍처, Grok 효과, 핵심 인사이트 |
+| [09 · 향후 로드맵](docs/09-next-roadmap.md) | pyboy 도입, 포획 이벤트, 완전 자동화 에이전트, 기술 스택 진화 |
+| [10 · 포스트모템: 스크립트 오류 & Grok 효과](docs/10-grok-script-error-postmortem.md) | **신규** — "스크립트 추가" 무한루프 사고 원인/해결, Grok 모델 효과 분석 |
+| [launch-pokemon.ps1](harness/launch-pokemon.ps1) | **신규** — 원클릭 런처 (mGBA→Lua GUI 로드→mGBA-http→체인 검증) |
 
 ---
 

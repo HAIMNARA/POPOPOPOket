@@ -1,0 +1,116 @@
+# 03 · 공략 가이드 — 침실에서 Viridian City까지
+
+## 0. 목표
+
+> RED 캐릭터를 **Viridian City(초록마을)** 까지 진행시키는 것이 1차 목표 마일스톤.
+
+전체 경로:
+
+```
+침실(2F) → 1F → 마사라타운(Pallet Town)
+   → (Oak 강제 컷씬) → Oak 연구소
+   → 스타팅 포켓몬(꼬부기) 선택 → 라이벌전
+   → Route 1 (북진 직선 구간)
+   → Viridian City  ← 목표 도달
+```
+
+조작키(mGBA 기본): 방향=화살표, A=`X`, B=`Z`, Start=`Enter`, Select=`Backspace`.
+수동 드라이버 예: `.omo/play.ps1 -Keys "d,d,a" -Out <png>` → [06 · 수동 플레이 툴킷](06-manual-play-toolkit.md)
+
+---
+
+## 1. 구간별 공략
+
+### 구간 A — 인트로 & 침실 (LLM 판단 구간)
+
+- 타이틀 화면: `Start`/`A` 로 진행, New Game 선택.
+- Oak 인트로 강의 + 이름 입력: 대사는 `A` 연타, 이름 입력 확정은 `Start`.
+- 침실(2F)에서 계단으로 내려가 1F → 집 밖 마사라타운으로 나간다.
+- **이 구간은 메뉴/대사/분기가 많아 결정론적 자동화가 위험** → LLM에게 맡긴다.
+
+### 구간 B — 마사라타운 & Oak 컷씬 (LLM 판단 구간)
+
+- 마을 위쪽(Route 1 입구)으로 가려 하면 Oak가 막고 강제로 연구소로 데려가는 컷씬 발생.
+- 연구소에서 스타팅 포켓몬 선택: **꼬부기(Squirtle)** 를 고른다(이 실험 기준).
+- 선택 직후 **라이벌전** 발생.
+
+### 구간 C — 라이벌전 (전투 자동 구간)
+
+- 전투는 RAM의 전투 플래그로 신뢰성 있게 감지 가능.
+- 자동조종: `A` 매크로로 기본 공격을 반복(auto-battle). 단 너무 오래 끌면 LLM에 위임(무한루프 방지).
+- 상세 로직: [05 · 자동조종 & 복구 로직](05-autopilot-and-recovery.md)
+
+### 구간 D — Route 1 북진 (결정론적 자동 구간 ★)
+
+- Route 1(`mapId = 0x0C`)은 **건물·메뉴가 없는 긴 직선 통로**라 LLM이 가장 토큰을 많이 태우는 구간.
+- 그래서 fast-flow가 **"위(Up)로 한 타일씩 북진"** 을 결정론적으로 처리한다.
+- 이미 북향인데 좌표가 안 바뀌면(=울타리/절벽 등 실장애물) 3회 후 LLM에 라우팅을 위임.
+
+### 구간 E — Viridian City 도달 (목표)
+
+- `mapId == 0x01` 이 되는 순간 **`viridian-city-reached`** 마일스톤 달성 → 목표 완료.
+- fast-flow는 목표 맵에서는 아무 액션도 하지 않고 루프가 멈출 수 있게 한다.
+
+---
+
+## 2. 진행 마일스톤 9단계 체계
+
+`pokemon-milestones.ts` 가 점수화하는 진행 단계(낮음 → 높음 순위):
+
+| 순위 | 마일스톤 ID | 의미 |
+|---|---|---|
+| 0 | `title-menu-handled` | 타이틀/메뉴 화면 처리됨 |
+| 1 | `new-game-started-or-resumed` | 새 게임 시작/이어하기 |
+| 2 | `player-control-reached` | 플레이어가 직접 조작 가능한 상태 (전투/대사/메뉴 아님 + 방향 확정) |
+| 3 | `first-map-transition` | 첫 맵 전환 (다른 맵으로 이동) |
+| 4 | `first-dialogue-completed` | 첫 대사 종료 |
+| 5 | `first-battle-detected` | 첫 전투 감지 |
+| 6 | `first-battle-completed` | 첫 전투 종료 |
+| 7 | `first-pokemon-obtained` | 첫 포켓몬 획득 |
+| 8 | `viridian-city-reached` | **Viridian City 도달 (목표)** |
+
+### 점수화 규칙 (우선순위 순)
+
+`scorePokemonMilestone()` 의 판정 순서:
+
+1. RAM 읽기 불가 / 맵·좌표가 `null` → `null` (판정 보류).
+2. `mapId == 0x01` → **`viridian-city-reached`** (최우선 양성 마일스톤).
+3. 현재 전투 중 → `first-battle-detected`.
+4. 직전엔 전투, 지금은 아님 → `first-battle-completed`.
+5. 직전엔 대사, 지금은 아님 → `first-dialogue-completed`.
+6. 직전 맵 ≠ 현재 맵 → `first-map-transition`.
+7. 플레이어 제어 상태 → `player-control-reached`.
+8. 메뉴 상태 → `title-menu-handled`.
+9. 그 외 → `new-game-started-or-resumed`.
+
+> **트래커는 "지금까지 도달한 가장 높은 순위"(furthest)를 유지**한다. 맵을 0→1로 갔다가
+> 다시 다른 맵을 봐도 Viridian이 furthest로 유지된다. (`PokemonMilestoneTracker`)
+
+### Viridian이 mapId 1을 차지하는 이유 / 회귀 주의
+
+- pokered 캐논 기준 Viridian City의 `mapId = 0x01`.
+- 그래서 마일스톤 테스트에서 "일반적인 다른 맵"으로 `mapId:1` 을 쓰면 Viridian 분기와 충돌한다.
+  → 기존 "first map transition" 테스트는 `mapId:2` 로 옮겨서 의도(맵 변경 → 첫 전환)를 보존하고,
+  `mapId:1` 은 Viridian 전용으로 예약했다. (회귀 방지 교훈 → [07](07-pitfalls-archive.md))
+
+---
+
+## 3. 수동 플레이 진행/막힘 로그 양식
+
+수동으로 진행을 검증할 때 쓰던 아카이브 양식. 같은 화면/좌표에서 반복 실패 시 기록해 다음엔 다른 접근을 쓴다.
+
+```markdown
+# Pokémon Red 수동 플레이 — 막힘/오류 아카이브
+목표: RED 캐릭터를 Viridian City까지 진행.
+
+## 진행 로그
+| 시각 | 위치/상태 | 액션 | 결과 |
+|---|---|---|---|
+
+## 막힘/오류 아카이브 (재발 방지)
+> 같은 화면/좌표에서 반복 실패 시 여기에 기록하고, 다음엔 다른 접근 사용.
+```
+
+---
+
+다음: [04 · RAM 맵 & 조작 레퍼런스](04-ram-and-controls.md)

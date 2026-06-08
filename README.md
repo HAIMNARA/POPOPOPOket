@@ -27,13 +27,15 @@ LLM 에이전트가 mGBA에서 구동 중인 **포켓몬 레드(Game Boy)** 를 
 
 | 문서 | 내용 |
 |---|---|
-| [01 · 개요 & 워크플로우](docs/01-overview-workflow.md) | 전체 아키텍처, 컴포넌트 구성, 매 턴 루프(관찰→판단→액션→기록) |
+| [01 · 개요 & 워크플로우](docs/01-overview-workflow.md) | 전체 아키텍처, 컴포넌트 구성, 매 턴 루프, 대안 아키텍처 패턴 |
 | [02 · 환경 셋업](docs/02-environment-setup.md) | mGBA + mGBA-http + Lua 소켓 + 하네스 구동 절차, 연결 점검 |
-| [03 · 공략 가이드](docs/03-strategy-guide.md) | 침실 → Viridian City 루트, 진행 마일스톤 9단계 체계 |
+| [03 · 공략 가이드](docs/03-strategy-guide.md) | 침실 → Viridian City 루트, 마일스톤 9단계, 마스킹 시스템, 세션 핸드오프 |
 | [04 · RAM 맵 & 조작 레퍼런스](docs/04-ram-and-controls.md) | 포켓몬 레드 WRAM 주소, 키 매핑, 방향 코드, 맵 ID |
-| [05 · 자동조종 & 복구 로직](docs/05-autopilot-and-recovery.md) | fast-flow 결정론적 이동, stuck-memory 막힘 감지, supervisor 정규화 |
+| [05 · 자동조종 & 복구 로직](docs/05-autopilot-and-recovery.md) | fast-flow, stuck-memory, supervisor, 다층 아키텍처, 피드백 루프 |
 | [06 · 수동 플레이 툴킷](docs/06-manual-play-toolkit.md) | `.omo` PowerShell 드라이버(키 입력 + 스크린샷) 사용법 |
-| [07 · 함정 아카이브](docs/07-pitfalls-archive.md) | 막힘/오류 기록, 재발 방지 교훈 (mGBA `--script` 함정 등) |
+| [07 · 함정 아카이브](docs/07-pitfalls-archive.md) | 재발 방지 교훈 14건 (풀숲 오인식, 콜 호스트 끊김 등 회의 도출 포함) |
+| [08 · 회의 리뷰 (2026-06-06)](docs/08-meeting-review-2026-06-06.md) | **신규** — 자동화 발표 세션 체계화, 참가자별 아키텍처, 핵심 인사이트 |
+| [09 · 향후 로드맵](docs/09-next-roadmap.md) | **신규** — pyboy 도입, 포획 이벤트, 완전 자동화 에이전트, 기술 스택 진화 |
 
 ---
 
@@ -61,3 +63,7 @@ LLM 에이전트가 mGBA에서 구동 중인 **포켓몬 레드(Game Boy)** 를 
   건물/메뉴/인트로처럼 분기가 많은 곳만 LLM이 판단한다.
 - **막힘은 기억한다**: 같은 좌표에서 같은 이동이 반복 실패하면 기록해두고, 프롬프트에 주입해 무한 반복을 막는다.
 - **증거 없는 개선은 없다**: 토큰이 줄어도 진행/막힘/액션 다양성/툴 신뢰성이 나빠지면 롤백한다.
+- **닫힌 루프만 있으면 개선은 발생한다**: 피드백 루프를 구성하면 속도가 느려도 지속적 개선이 일어난다.
+  이슈/티켓 기반 메타 레이어로 검증됨. (2026-06-06 회의 도출)
+- **비전 입력은 오염하지 않는다**: 좌표 그리드를 원본에 직접 오버레이하면 모델 추론이 망가진다.
+  원본 + 가이드 이미지를 별도로 제공할 것. (2026-06-06 회의 도출)

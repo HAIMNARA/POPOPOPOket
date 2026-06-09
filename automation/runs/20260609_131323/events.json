@@ -1,0 +1,668 @@
+[
+  {
+    "turn": 0,
+    "phase": "title",
+    "msg": "Wait 800 frames for title",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 0,
+      "walk": 0,
+      "fr": 0
+    },
+    "ts": 1780978403.213649
+  },
+  {
+    "turn": 0,
+    "phase": "title",
+    "msg": "START",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 0,
+      "walk": 0,
+      "fr": 800
+    },
+    "ts": 1780978403.443484
+  },
+  {
+    "turn": 0,
+    "phase": "title",
+    "msg": "A for NEW GAME",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 0,
+      "walk": 0,
+      "fr": 995
+    },
+    "ts": 1780978403.4922934
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Oak intro with InputGate...",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 64,
+      "joy": 172,
+      "walk": 0,
+      "fr": 1130
+    },
+    "ts": 1780978403.5312123
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog #0",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 1524
+    },
+    "ts": 1780978403.6412451
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog #4",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 172,
+      "walk": 0,
+      "fr": 3100
+    },
+    "ts": 1780978404.3544261
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog #8",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 172,
+      "walk": 0,
+      "fr": 4676
+    },
+    "ts": 1780978405.0210156
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Name: DOWN then A for RED",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 172,
+      "walk": 0,
+      "fr": 5858
+    },
+    "ts": 1780978405.4755652
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Rival: DOWN then A for BLUE",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 172,
+      "walk": 0,
+      "fr": 10008
+    },
+    "ts": 1780978406.74699
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Final intro...",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 172,
+      "walk": 0,
+      "fr": 11006
+    },
+    "ts": 1780978406.9521413
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Cleared 30 dialogs",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 172,
+      "walk": 0,
+      "fr": 31276
+    },
+    "ts": 1780978413.5447688
+  },
+  {
+    "turn": 2,
+    "phase": "intro",
+    "msg": "Post-intro m=38 p=0",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 172,
+      "walk": 0,
+      "fr": 31276
+    },
+    "ts": 1780978413.54677
+  },
+  {
+    "turn": 2,
+    "phase": "bedroom",
+    "msg": "Bedroom y=6 x=3",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 172,
+      "walk": 0,
+      "fr": 31276
+    },
+    "ts": 1780978413.54677
+  },
+  {
+    "turn": 2,
+    "phase": "bedroom",
+    "msg": "Down#0 y=6 x=3 m=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 0,
+      "joy": 172,
+      "walk": 0,
+      "fr": 35040
+    },
+    "ts": 1780978414.8156214
+  },
+  {
+    "turn": 2,
+    "phase": "bedroom",
+    "msg": "Down#3 y=7 x=3 m=38",
+    "state": {
+      "map": 38,
+      "y": 7,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 36774
+    },
+    "ts": 1780978415.371464
+  },
+  {
+    "turn": 2,
+    "phase": "bedroom",
+    "msg": "Down#6 y=7 x=3 m=38",
+    "state": {
+      "map": 38,
+      "y": 7,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 37446
+    },
+    "ts": 1780978415.5259638
+  },
+  {
+    "turn": 2,
+    "phase": "bedroom",
+    "msg": "Down#9 y=7 x=3 m=38",
+    "state": {
+      "map": 38,
+      "y": 7,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 38118
+    },
+    "ts": 1780978415.6780329
+  },
+  {
+    "turn": 2,
+    "phase": "bedroom",
+    "msg": "Still bedroom, try right+down",
+    "state": {
+      "map": 38,
+      "y": 7,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 38566
+    },
+    "ts": 1780978415.7781632
+  },
+  {
+    "turn": 3,
+    "phase": "lab",
+    "msg": "Lab m=38",
+    "state": {
+      "map": 38,
+      "y": 7,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 40582
+    },
+    "ts": 1780978416.230431
+  },
+  {
+    "turn": 3,
+    "phase": "lab",
+    "msg": "Party=0",
+    "state": {
+      "map": 38,
+      "y": 2,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 54840
+    },
+    "ts": 1780978419.491108
+  },
+  {
+    "turn": 4,
+    "phase": "route1",
+    "msg": "Route1 m=38 y=2 x=5",
+    "state": {
+      "map": 38,
+      "y": 2,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 65460
+    },
+    "ts": 1780978421.8749259
+  },
+  {
+    "turn": 4,
+    "phase": "route1",
+    "msg": "Step 0 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 65684
+    },
+    "ts": 1780978421.9256377
+  },
+  {
+    "turn": 24,
+    "phase": "route1",
+    "msg": "Step 20 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 73748
+    },
+    "ts": 1780978423.7671733
+  },
+  {
+    "turn": 44,
+    "phase": "route1",
+    "msg": "Step 40 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 81812
+    },
+    "ts": 1780978425.5849352
+  },
+  {
+    "turn": 64,
+    "phase": "route1",
+    "msg": "Step 60 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 89876
+    },
+    "ts": 1780978427.4484532
+  },
+  {
+    "turn": 84,
+    "phase": "route1",
+    "msg": "Step 80 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 97940
+    },
+    "ts": 1780978429.249905
+  },
+  {
+    "turn": 104,
+    "phase": "route1",
+    "msg": "Step 100 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 106004
+    },
+    "ts": 1780978431.0822318
+  },
+  {
+    "turn": 124,
+    "phase": "route1",
+    "msg": "Step 120 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 114068
+    },
+    "ts": 1780978432.8880966
+  },
+  {
+    "turn": 144,
+    "phase": "route1",
+    "msg": "Step 140 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 122132
+    },
+    "ts": 1780978434.777512
+  },
+  {
+    "turn": 164,
+    "phase": "route1",
+    "msg": "Step 160 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 130196
+    },
+    "ts": 1780978436.6008034
+  },
+  {
+    "turn": 184,
+    "phase": "route1",
+    "msg": "Step 180 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 138260
+    },
+    "ts": 1780978438.4704814
+  },
+  {
+    "turn": 204,
+    "phase": "route1",
+    "msg": "Step 200 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 146324
+    },
+    "ts": 1780978440.3447294
+  },
+  {
+    "turn": 224,
+    "phase": "route1",
+    "msg": "Step 220 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 154388
+    },
+    "ts": 1780978442.2090814
+  },
+  {
+    "turn": 244,
+    "phase": "route1",
+    "msg": "Step 240 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 162452
+    },
+    "ts": 1780978444.0242982
+  },
+  {
+    "turn": 264,
+    "phase": "route1",
+    "msg": "Step 260 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 170516
+    },
+    "ts": 1780978445.871271
+  },
+  {
+    "turn": 284,
+    "phase": "route1",
+    "msg": "Step 280 m=38 y=1 x=5",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 178580
+    },
+    "ts": 1780978447.670448
+  },
+  {
+    "turn": 304,
+    "phase": "route1",
+    "msg": "Done 45.8s viridian=False",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 184628
+    },
+    "ts": 1780978449.0147882
+  }
+]

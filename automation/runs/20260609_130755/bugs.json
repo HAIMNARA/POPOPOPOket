@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "turn": 0,
+    "phase": "title",
+    "title": "crash",
+    "detail": "AttributeError: 'pyboy.pyboy.PyBoy' object has no attribute 'get_screen_image'",
+    "resolution": "Traceback (most recent call last):\n  File \"C:\\Users\\하미\\AppData\\Local\\Temp\\opencode\\POPOPOPOket\\automation\\play.py\", line 576, in run\n    self.phase_title()\n  File \"C:\\Users\\하미\\AppData\\Local\\Temp\\opencode\\POPOPOPOket\\automation\\play.py\", line 150, in phase_title\n    self.screenshot(\"title_ready\")\n  File \"C:\\Users\\하미\\AppData\\Local\\Temp\\opencode\\POPOPOPOket\\automation\\play.py\", line 121, in screenshot\n    self.pyboy.get_screen_image().save(str(path))\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'pyboy.pyboy.PyBoy' object has no attribute 'get_screen_image'. Did you mean: 'screen_image'?\n",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 600
+    }
+  }
+]

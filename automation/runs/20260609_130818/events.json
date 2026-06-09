@@ -1,0 +1,4048 @@
+[
+  {
+    "turn": 0,
+    "phase": "title",
+    "msg": "Waiting for title screen animations...",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 0
+    },
+    "level": "INFO",
+    "ts": 1780978098.1803823
+  },
+  {
+    "turn": 0,
+    "phase": "title",
+    "msg": "Pressing START on title screen",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 600
+    },
+    "level": "INFO",
+    "ts": 1780978098.3828855
+  },
+  {
+    "turn": 0,
+    "phase": "title",
+    "msg": "Selecting NEW GAME",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 740
+    },
+    "level": "INFO",
+    "ts": 1780978098.4142613
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Oak intro - pressing A through dialog...",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 820
+    },
+    "level": "INFO",
+    "ts": 1780978098.4367945
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 4: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1220
+    },
+    "level": "INFO",
+    "ts": 1780978098.5496464
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 5: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1300
+    },
+    "level": "INFO",
+    "ts": 1780978098.5682359
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 6: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1380
+    },
+    "level": "INFO",
+    "ts": 1780978098.5968215
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 7: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1460
+    },
+    "level": "INFO",
+    "ts": 1780978098.6234922
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 8: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1540
+    },
+    "level": "INFO",
+    "ts": 1780978098.648141
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 9: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1620
+    },
+    "level": "INFO",
+    "ts": 1780978098.6747603
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 10: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1700
+    },
+    "level": "INFO",
+    "ts": 1780978098.7030914
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 11: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1780
+    },
+    "level": "INFO",
+    "ts": 1780978098.724096
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 12: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1860
+    },
+    "level": "INFO",
+    "ts": 1780978098.7506995
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 13: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 1940
+    },
+    "level": "INFO",
+    "ts": 1780978098.778278
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 14: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2020
+    },
+    "level": "INFO",
+    "ts": 1780978098.8033142
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 15: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2100
+    },
+    "level": "INFO",
+    "ts": 1780978098.8287685
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 16: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2180
+    },
+    "level": "INFO",
+    "ts": 1780978098.8563247
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 17: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2260
+    },
+    "level": "INFO",
+    "ts": 1780978098.8829103
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 18: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2340
+    },
+    "level": "INFO",
+    "ts": 1780978098.9089437
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 19: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2420
+    },
+    "level": "INFO",
+    "ts": 1780978098.9339113
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 20: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2500
+    },
+    "level": "INFO",
+    "ts": 1780978098.9590743
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 21: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2580
+    },
+    "level": "INFO",
+    "ts": 1780978098.9880004
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 22: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2660
+    },
+    "level": "INFO",
+    "ts": 1780978099.0105233
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 23: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2740
+    },
+    "level": "INFO",
+    "ts": 1780978099.036163
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Dialog box 24: map=38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2820
+    },
+    "level": "INFO",
+    "ts": 1780978099.0607872
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Name selection - choosing RED",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 2820
+    },
+    "level": "INFO",
+    "ts": 1780978099.0607872
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Rival name selection - choosing BLUE",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 3735
+    },
+    "level": "INFO",
+    "ts": 1780978099.3388064
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Final intro dialog...",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 3850
+    },
+    "level": "INFO",
+    "ts": 1780978099.361429
+  },
+  {
+    "turn": 1,
+    "phase": "intro",
+    "msg": "Intro complete. Current map: 38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 5830
+    },
+    "level": "INFO",
+    "ts": 1780978099.93263
+  },
+  {
+    "turn": 2,
+    "phase": "intro",
+    "msg": "Post-intro state: map=38 y=6 x=3",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 5830
+    },
+    "level": "INFO",
+    "ts": 1780978099.93263
+  },
+  {
+    "turn": 2,
+    "phase": "house_1f",
+    "msg": "House 1F: map=38 y=6 x=3",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 5830
+    },
+    "level": "INFO",
+    "ts": 1780978099.93263
+  },
+  {
+    "turn": 2,
+    "phase": "house_1f",
+    "msg": "After house 1F: map=38 y=6 x=3",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 6150
+    },
+    "level": "INFO",
+    "ts": 1780978100.054548
+  },
+  {
+    "turn": 3,
+    "phase": "oaks_lab",
+    "msg": "Oak's Lab: map=38 y=6 x=3",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 6150
+    },
+    "level": "INFO",
+    "ts": 1780978100.054548
+  },
+  {
+    "turn": 3,
+    "phase": "oaks_lab",
+    "msg": "After starter selection: party=0",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 8390
+    },
+    "level": "INFO",
+    "ts": 1780978100.7762594
+  },
+  {
+    "turn": 4,
+    "phase": "rival_battle",
+    "msg": "Checking for rival battle...",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 9590
+    },
+    "level": "INFO",
+    "ts": 1780978101.1801407
+  },
+  {
+    "turn": 4,
+    "phase": "rival_battle",
+    "msg": "No battle detected yet, continuing dialog...",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 11990
+    },
+    "level": "INFO",
+    "ts": 1780978101.9368024
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Heading to Route 1: map=38 y=6 x=3",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 14690
+    },
+    "level": "INFO",
+    "ts": 1780978102.827899
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 0",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 14690
+    },
+    "level": "INFO",
+    "ts": 1780978102.827899
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 1",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 15090
+    },
+    "level": "INFO",
+    "ts": 1780978102.9540794
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 2",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 15490
+    },
+    "level": "INFO",
+    "ts": 1780978103.0787444
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 3",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 15890
+    },
+    "level": "INFO",
+    "ts": 1780978103.2005413
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 4",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 16290
+    },
+    "level": "INFO",
+    "ts": 1780978103.3281622
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 5",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 16690
+    },
+    "level": "INFO",
+    "ts": 1780978103.45582
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 6",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 17090
+    },
+    "level": "INFO",
+    "ts": 1780978103.5811741
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 7",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 17490
+    },
+    "level": "INFO",
+    "ts": 1780978103.7058074
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 8",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 17890
+    },
+    "level": "INFO",
+    "ts": 1780978103.8329396
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 9",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 18290
+    },
+    "level": "INFO",
+    "ts": 1780978103.954764
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 10",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 18690
+    },
+    "level": "INFO",
+    "ts": 1780978104.0795653
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 11",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 19090
+    },
+    "level": "INFO",
+    "ts": 1780978104.2083132
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 12",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 19490
+    },
+    "level": "INFO",
+    "ts": 1780978104.3271687
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 13",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 19890
+    },
+    "level": "INFO",
+    "ts": 1780978104.4513414
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 14",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 20290
+    },
+    "level": "INFO",
+    "ts": 1780978104.5777397
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 15",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 20690
+    },
+    "level": "INFO",
+    "ts": 1780978104.6972609
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 16",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 21090
+    },
+    "level": "INFO",
+    "ts": 1780978104.8184536
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 17",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 21490
+    },
+    "level": "INFO",
+    "ts": 1780978104.9450307
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 18",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 21890
+    },
+    "level": "INFO",
+    "ts": 1780978105.0662665
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 19",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 22290
+    },
+    "level": "INFO",
+    "ts": 1780978105.1914022
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 20",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 22690
+    },
+    "level": "INFO",
+    "ts": 1780978105.3278878
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 21",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 23090
+    },
+    "level": "INFO",
+    "ts": 1780978105.4558837
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 22",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 23490
+    },
+    "level": "INFO",
+    "ts": 1780978105.6015358
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 23",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 23890
+    },
+    "level": "INFO",
+    "ts": 1780978105.7538774
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 24",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 24290
+    },
+    "level": "INFO",
+    "ts": 1780978105.8936393
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 25",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 24690
+    },
+    "level": "INFO",
+    "ts": 1780978106.0242934
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 26",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 25090
+    },
+    "level": "INFO",
+    "ts": 1780978106.1633906
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 27",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 25490
+    },
+    "level": "INFO",
+    "ts": 1780978106.2945974
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 28",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 25890
+    },
+    "level": "INFO",
+    "ts": 1780978106.4232652
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 29",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 26290
+    },
+    "level": "INFO",
+    "ts": 1780978106.5674884
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 30",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 26690
+    },
+    "level": "INFO",
+    "ts": 1780978106.6952436
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 31",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 27090
+    },
+    "level": "INFO",
+    "ts": 1780978106.8188422
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 32",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 27490
+    },
+    "level": "INFO",
+    "ts": 1780978106.9546402
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 33",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 27890
+    },
+    "level": "INFO",
+    "ts": 1780978107.0863092
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 34",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 28290
+    },
+    "level": "INFO",
+    "ts": 1780978107.2125003
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 35",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 28690
+    },
+    "level": "INFO",
+    "ts": 1780978107.3365645
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 36",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 29090
+    },
+    "level": "INFO",
+    "ts": 1780978107.4570713
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 37",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 29490
+    },
+    "level": "INFO",
+    "ts": 1780978107.5857997
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 38",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 29890
+    },
+    "level": "INFO",
+    "ts": 1780978107.7144036
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 39",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 30290
+    },
+    "level": "INFO",
+    "ts": 1780978107.834441
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 40",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 30690
+    },
+    "level": "INFO",
+    "ts": 1780978107.9640298
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 41",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 31090
+    },
+    "level": "INFO",
+    "ts": 1780978108.090833
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 42",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 31490
+    },
+    "level": "INFO",
+    "ts": 1780978108.21371
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 43",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 31890
+    },
+    "level": "INFO",
+    "ts": 1780978108.3385532
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 44",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 32290
+    },
+    "level": "INFO",
+    "ts": 1780978108.4659898
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 45",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 32690
+    },
+    "level": "INFO",
+    "ts": 1780978108.595691
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 46",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 33090
+    },
+    "level": "INFO",
+    "ts": 1780978108.7193172
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 47",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 33490
+    },
+    "level": "INFO",
+    "ts": 1780978108.8449056
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 48",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 33890
+    },
+    "level": "INFO",
+    "ts": 1780978108.9641094
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 49",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 34290
+    },
+    "level": "INFO",
+    "ts": 1780978109.0860584
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 50",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 34690
+    },
+    "level": "INFO",
+    "ts": 1780978109.2108295
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 51",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 35090
+    },
+    "level": "INFO",
+    "ts": 1780978109.3294373
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 52",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 35490
+    },
+    "level": "INFO",
+    "ts": 1780978109.4532764
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 53",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 35890
+    },
+    "level": "INFO",
+    "ts": 1780978109.586882
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 54",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 36290
+    },
+    "level": "INFO",
+    "ts": 1780978109.7170138
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 55",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 36690
+    },
+    "level": "INFO",
+    "ts": 1780978109.8384717
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 56",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 37090
+    },
+    "level": "INFO",
+    "ts": 1780978109.9652941
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 57",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 37490
+    },
+    "level": "INFO",
+    "ts": 1780978110.0851276
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 58",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 37890
+    },
+    "level": "INFO",
+    "ts": 1780978110.2114706
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 59",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 38290
+    },
+    "level": "INFO",
+    "ts": 1780978110.3382518
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 60",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 38690
+    },
+    "level": "INFO",
+    "ts": 1780978110.4594176
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 61",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 39090
+    },
+    "level": "INFO",
+    "ts": 1780978110.5821714
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 62",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 39490
+    },
+    "level": "INFO",
+    "ts": 1780978110.7147748
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 63",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 39890
+    },
+    "level": "INFO",
+    "ts": 1780978110.8482203
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 64",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 40290
+    },
+    "level": "INFO",
+    "ts": 1780978110.9857373
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 65",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 40690
+    },
+    "level": "INFO",
+    "ts": 1780978111.1204014
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 66",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 41090
+    },
+    "level": "INFO",
+    "ts": 1780978111.2410054
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 67",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 41490
+    },
+    "level": "INFO",
+    "ts": 1780978111.3903449
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 68",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 41890
+    },
+    "level": "INFO",
+    "ts": 1780978111.5228362
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 69",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 42290
+    },
+    "level": "INFO",
+    "ts": 1780978111.6436725
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 70",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 42690
+    },
+    "level": "INFO",
+    "ts": 1780978111.7729948
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 71",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 43090
+    },
+    "level": "INFO",
+    "ts": 1780978111.8992739
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 72",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 43490
+    },
+    "level": "INFO",
+    "ts": 1780978112.025942
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 73",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 43890
+    },
+    "level": "INFO",
+    "ts": 1780978112.1508844
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 74",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 44290
+    },
+    "level": "INFO",
+    "ts": 1780978112.2772987
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 75",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 44690
+    },
+    "level": "INFO",
+    "ts": 1780978112.399688
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 76",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 45090
+    },
+    "level": "INFO",
+    "ts": 1780978112.5204103
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 77",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 45490
+    },
+    "level": "INFO",
+    "ts": 1780978112.6496968
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 78",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 45890
+    },
+    "level": "INFO",
+    "ts": 1780978112.7746902
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 79",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 46290
+    },
+    "level": "INFO",
+    "ts": 1780978112.8964128
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 80",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 46690
+    },
+    "level": "INFO",
+    "ts": 1780978113.0220404
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 81",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 47090
+    },
+    "level": "INFO",
+    "ts": 1780978113.1456964
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 82",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 47490
+    },
+    "level": "INFO",
+    "ts": 1780978113.2724206
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 83",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 47890
+    },
+    "level": "INFO",
+    "ts": 1780978113.398226
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 84",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 48290
+    },
+    "level": "INFO",
+    "ts": 1780978113.5160618
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 85",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 48690
+    },
+    "level": "INFO",
+    "ts": 1780978113.6477492
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 86",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 49090
+    },
+    "level": "INFO",
+    "ts": 1780978113.7782805
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 87",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 49490
+    },
+    "level": "INFO",
+    "ts": 1780978113.8980649
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 88",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 49890
+    },
+    "level": "INFO",
+    "ts": 1780978114.0247917
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 89",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 50290
+    },
+    "level": "INFO",
+    "ts": 1780978114.1523645
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 90",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 50690
+    },
+    "level": "INFO",
+    "ts": 1780978114.2773082
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 91",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 51090
+    },
+    "level": "INFO",
+    "ts": 1780978114.399652
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 92",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 51490
+    },
+    "level": "INFO",
+    "ts": 1780978114.528858
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 93",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 51890
+    },
+    "level": "INFO",
+    "ts": 1780978114.6528804
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 94",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 52290
+    },
+    "level": "INFO",
+    "ts": 1780978114.7759962
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 95",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 52690
+    },
+    "level": "INFO",
+    "ts": 1780978114.9015658
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 96",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 53090
+    },
+    "level": "INFO",
+    "ts": 1780978115.0219567
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 97",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 53490
+    },
+    "level": "INFO",
+    "ts": 1780978115.1478674
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 98",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 53890
+    },
+    "level": "INFO",
+    "ts": 1780978115.2780895
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 99",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 54290
+    },
+    "level": "INFO",
+    "ts": 1780978115.405374
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 100",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 54690
+    },
+    "level": "INFO",
+    "ts": 1780978115.5297613
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 101",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 55090
+    },
+    "level": "INFO",
+    "ts": 1780978115.6642277
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 102",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 55490
+    },
+    "level": "INFO",
+    "ts": 1780978115.791503
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 103",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 55890
+    },
+    "level": "INFO",
+    "ts": 1780978115.9190683
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 104",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 56290
+    },
+    "level": "INFO",
+    "ts": 1780978116.0468082
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 105",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 56690
+    },
+    "level": "INFO",
+    "ts": 1780978116.168855
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 106",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 57090
+    },
+    "level": "INFO",
+    "ts": 1780978116.2970927
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 107",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 57490
+    },
+    "level": "INFO",
+    "ts": 1780978116.4255645
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 108",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 57890
+    },
+    "level": "INFO",
+    "ts": 1780978116.5516043
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 109",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 58290
+    },
+    "level": "INFO",
+    "ts": 1780978116.6788323
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 110",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 58690
+    },
+    "level": "INFO",
+    "ts": 1780978116.8041897
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 111",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 59090
+    },
+    "level": "INFO",
+    "ts": 1780978116.9295058
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 112",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 59490
+    },
+    "level": "INFO",
+    "ts": 1780978117.0546143
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 113",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 59890
+    },
+    "level": "INFO",
+    "ts": 1780978117.1856806
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 114",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 60290
+    },
+    "level": "INFO",
+    "ts": 1780978117.3109293
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 115",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 60690
+    },
+    "level": "INFO",
+    "ts": 1780978117.435492
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 116",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 61090
+    },
+    "level": "INFO",
+    "ts": 1780978117.576618
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 117",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 61490
+    },
+    "level": "INFO",
+    "ts": 1780978117.6986773
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 118",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 61890
+    },
+    "level": "INFO",
+    "ts": 1780978117.8226266
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 119",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 62290
+    },
+    "level": "INFO",
+    "ts": 1780978117.9531784
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 120",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 62690
+    },
+    "level": "INFO",
+    "ts": 1780978118.0712
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 121",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 63090
+    },
+    "level": "INFO",
+    "ts": 1780978118.1989427
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 122",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 63490
+    },
+    "level": "INFO",
+    "ts": 1780978118.3272543
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 123",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 63890
+    },
+    "level": "INFO",
+    "ts": 1780978118.4482992
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 124",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 64290
+    },
+    "level": "INFO",
+    "ts": 1780978118.5814185
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 125",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 64690
+    },
+    "level": "INFO",
+    "ts": 1780978118.7253535
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 126",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 65090
+    },
+    "level": "INFO",
+    "ts": 1780978118.8457592
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 127",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 65490
+    },
+    "level": "INFO",
+    "ts": 1780978118.9756107
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 128",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 65890
+    },
+    "level": "INFO",
+    "ts": 1780978119.101734
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 129",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 66290
+    },
+    "level": "INFO",
+    "ts": 1780978119.2224023
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 130",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 66690
+    },
+    "level": "INFO",
+    "ts": 1780978119.3450046
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 131",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 67090
+    },
+    "level": "INFO",
+    "ts": 1780978119.471541
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 132",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 67490
+    },
+    "level": "INFO",
+    "ts": 1780978119.5957947
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 133",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 67890
+    },
+    "level": "INFO",
+    "ts": 1780978119.7205539
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 134",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 68290
+    },
+    "level": "INFO",
+    "ts": 1780978119.846119
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 135",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 68690
+    },
+    "level": "INFO",
+    "ts": 1780978119.973311
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 136",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 69090
+    },
+    "level": "INFO",
+    "ts": 1780978120.0973697
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 137",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 69490
+    },
+    "level": "INFO",
+    "ts": 1780978120.2257183
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 138",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 69890
+    },
+    "level": "INFO",
+    "ts": 1780978120.3458607
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 139",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 70290
+    },
+    "level": "INFO",
+    "ts": 1780978120.4689784
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 140",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 70690
+    },
+    "level": "INFO",
+    "ts": 1780978120.5986202
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 141",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 71090
+    },
+    "level": "INFO",
+    "ts": 1780978120.7274666
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 142",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 71490
+    },
+    "level": "INFO",
+    "ts": 1780978120.8544166
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 143",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 71890
+    },
+    "level": "INFO",
+    "ts": 1780978120.987847
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 144",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 72290
+    },
+    "level": "INFO",
+    "ts": 1780978121.109523
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 145",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 72690
+    },
+    "level": "INFO",
+    "ts": 1780978121.2335443
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 146",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 73090
+    },
+    "level": "INFO",
+    "ts": 1780978121.3629527
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 147",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 73490
+    },
+    "level": "INFO",
+    "ts": 1780978121.4878275
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 148",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 73890
+    },
+    "level": "INFO",
+    "ts": 1780978121.6119983
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 149",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 74290
+    },
+    "level": "INFO",
+    "ts": 1780978121.7451427
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 150",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 74690
+    },
+    "level": "INFO",
+    "ts": 1780978121.8718734
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 151",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 75090
+    },
+    "level": "INFO",
+    "ts": 1780978121.998047
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 152",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 75490
+    },
+    "level": "INFO",
+    "ts": 1780978122.1272469
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 153",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 75890
+    },
+    "level": "INFO",
+    "ts": 1780978122.2510808
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 154",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 76290
+    },
+    "level": "INFO",
+    "ts": 1780978122.374898
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 155",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 76690
+    },
+    "level": "INFO",
+    "ts": 1780978122.5045083
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 156",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 77090
+    },
+    "level": "INFO",
+    "ts": 1780978122.6239593
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 157",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 77490
+    },
+    "level": "INFO",
+    "ts": 1780978122.7630029
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 158",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 77890
+    },
+    "level": "INFO",
+    "ts": 1780978122.891721
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 159",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 78290
+    },
+    "level": "INFO",
+    "ts": 1780978123.014054
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 160",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 78690
+    },
+    "level": "INFO",
+    "ts": 1780978123.138479
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 161",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 79090
+    },
+    "level": "INFO",
+    "ts": 1780978123.2640123
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 162",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 79490
+    },
+    "level": "INFO",
+    "ts": 1780978123.3968372
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 163",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 79890
+    },
+    "level": "INFO",
+    "ts": 1780978123.5194514
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 164",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 80290
+    },
+    "level": "INFO",
+    "ts": 1780978123.6436741
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 165",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 80690
+    },
+    "level": "INFO",
+    "ts": 1780978123.7724347
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 166",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 81090
+    },
+    "level": "INFO",
+    "ts": 1780978123.8957455
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 167",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 81490
+    },
+    "level": "INFO",
+    "ts": 1780978124.0226257
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 168",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 81890
+    },
+    "level": "INFO",
+    "ts": 1780978124.1519902
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 169",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 82290
+    },
+    "level": "INFO",
+    "ts": 1780978124.2770803
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 170",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 82690
+    },
+    "level": "INFO",
+    "ts": 1780978124.4077733
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 171",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 83090
+    },
+    "level": "INFO",
+    "ts": 1780978124.538503
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 172",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 83490
+    },
+    "level": "INFO",
+    "ts": 1780978124.6617537
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 173",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 83890
+    },
+    "level": "INFO",
+    "ts": 1780978124.7885237
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 174",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 84290
+    },
+    "level": "INFO",
+    "ts": 1780978124.906841
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 175",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 84690
+    },
+    "level": "INFO",
+    "ts": 1780978125.0367787
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 176",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 85090
+    },
+    "level": "INFO",
+    "ts": 1780978125.1703641
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 177",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 85490
+    },
+    "level": "INFO",
+    "ts": 1780978125.291686
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 178",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 85890
+    },
+    "level": "INFO",
+    "ts": 1780978125.4217489
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 179",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 86290
+    },
+    "level": "INFO",
+    "ts": 1780978125.5498931
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 180",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 86690
+    },
+    "level": "INFO",
+    "ts": 1780978125.6761272
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 181",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 87090
+    },
+    "level": "INFO",
+    "ts": 1780978125.7984114
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 182",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 87490
+    },
+    "level": "INFO",
+    "ts": 1780978125.9266293
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 183",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 87890
+    },
+    "level": "INFO",
+    "ts": 1780978126.0493338
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 184",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 88290
+    },
+    "level": "INFO",
+    "ts": 1780978126.179609
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 185",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 88690
+    },
+    "level": "INFO",
+    "ts": 1780978126.3072548
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 186",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 89090
+    },
+    "level": "INFO",
+    "ts": 1780978126.4326465
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 187",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 89490
+    },
+    "level": "INFO",
+    "ts": 1780978126.5544736
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 188",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 89890
+    },
+    "level": "INFO",
+    "ts": 1780978126.6819274
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 189",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 90290
+    },
+    "level": "INFO",
+    "ts": 1780978126.8048491
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 190",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 90690
+    },
+    "level": "INFO",
+    "ts": 1780978126.9425242
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 191",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 91090
+    },
+    "level": "INFO",
+    "ts": 1780978127.0732532
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 192",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 91490
+    },
+    "level": "INFO",
+    "ts": 1780978127.1985662
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 193",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 91890
+    },
+    "level": "INFO",
+    "ts": 1780978127.326981
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 194",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 92290
+    },
+    "level": "INFO",
+    "ts": 1780978127.4617124
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 195",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 92690
+    },
+    "level": "INFO",
+    "ts": 1780978127.5850208
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 196",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 93090
+    },
+    "level": "INFO",
+    "ts": 1780978127.7103946
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 197",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 93490
+    },
+    "level": "INFO",
+    "ts": 1780978127.8370624
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 198",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 93890
+    },
+    "level": "INFO",
+    "ts": 1780978127.9639654
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Dialog at step 199",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 94290
+    },
+    "level": "INFO",
+    "ts": 1780978128.0878544
+  },
+  {
+    "turn": 5,
+    "phase": "route_1",
+    "msg": "Total time: 30.0s, Viridian reached: False",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 94690
+    },
+    "level": "INFO",
+    "ts": 1780978128.2215726
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "turn": 3,
+    "phase": "oaks_lab",
+    "title": "no_starter",
+    "detail": "Party count still 0 after lab sequence",
+    "resolution": "May need to walk to specific pokeball position",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 8390
+    }
+  },
+  {
+    "id": 2,
+    "turn": 4,
+    "phase": "rival_battle",
+    "title": "no_rival_battle",
+    "detail": "Rival battle did not trigger",
+    "resolution": "May need to walk to exit to trigger rival",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 13490
+    }
+  },
+  {
+    "id": 3,
+    "turn": 5,
+    "phase": "route_1",
+    "title": "route1_timeout",
+    "detail": "Did not reach Viridian City in 200 steps",
+    "resolution": "",
+    "state": {
+      "map": 38,
+      "y": 6,
+      "x": 3,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 4,
+      "frame": 94690
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "turn": 0,
+    "phase": "title",
+    "msg": "Waiting for title screen animations...",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 0
+    },
+    "level": "INFO",
+    "ts": 1780978076.009844
+  },
+  {
+    "turn": 0,
+    "phase": "title",
+    "msg": "CRASH: 'pyboy.pyboy.PyBoy' object has no attribute 'get_screen_image'",
+    "state": {
+      "map": 0,
+      "y": 0,
+      "x": 0,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "facing": 0,
+      "frame": 600
+    },
+    "level": "ERROR",
+    "ts": 1780978076.155743
+  }
+]

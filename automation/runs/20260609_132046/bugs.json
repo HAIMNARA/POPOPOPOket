@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "turn": 1,
+    "phase": "bedroom",
+    "title": "bedroom_stuck",
+    "detail": "Could not find stairs. Explored y=6->7, scanned bottom row",
+    "fix": "Need to check stair warp coords from pokered disassembly",
+    "state": {
+      "map": 38,
+      "y": 7,
+      "x": 1,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "walk": 0,
+      "fr": 11472
+    }
+  },
+  {
+    "id": 2,
+    "turn": 2,
+    "phase": "lab",
+    "title": "no_starter",
+    "detail": "Could not get starter Pokemon",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 2,
+      "x": 7,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "walk": 0,
+      "fr": 12215
+    }
+  },
+  {
+    "id": 3,
+    "turn": 403,
+    "phase": "route1",
+    "title": "timeout",
+    "detail": "400 steps without Viridian",
+    "fix": "",
+    "state": {
+      "map": 37,
+      "y": 1,
+      "x": 6,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "walk": 0,
+      "fr": 27050
+    }
+  }
+]

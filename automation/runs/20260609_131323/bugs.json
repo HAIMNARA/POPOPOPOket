@@ -1,0 +1,622 @@
+[
+  {
+    "id": 1,
+    "turn": 3,
+    "phase": "lab",
+    "title": "no_starter",
+    "detail": "party=0 m=38 y=2 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 2,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 54840
+    }
+  },
+  {
+    "id": 2,
+    "turn": 14,
+    "phase": "route1",
+    "title": "stuck_10",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 67924
+    }
+  },
+  {
+    "id": 3,
+    "turn": 24,
+    "phase": "route1",
+    "title": "stuck_20",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 71956
+    }
+  },
+  {
+    "id": 4,
+    "turn": 34,
+    "phase": "route1",
+    "title": "stuck_30",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 75988
+    }
+  },
+  {
+    "id": 5,
+    "turn": 44,
+    "phase": "route1",
+    "title": "stuck_40",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 80020
+    }
+  },
+  {
+    "id": 6,
+    "turn": 54,
+    "phase": "route1",
+    "title": "stuck_50",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 84052
+    }
+  },
+  {
+    "id": 7,
+    "turn": 64,
+    "phase": "route1",
+    "title": "stuck_60",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 88084
+    }
+  },
+  {
+    "id": 8,
+    "turn": 74,
+    "phase": "route1",
+    "title": "stuck_70",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 92116
+    }
+  },
+  {
+    "id": 9,
+    "turn": 84,
+    "phase": "route1",
+    "title": "stuck_80",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 96148
+    }
+  },
+  {
+    "id": 10,
+    "turn": 94,
+    "phase": "route1",
+    "title": "stuck_90",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 100180
+    }
+  },
+  {
+    "id": 11,
+    "turn": 104,
+    "phase": "route1",
+    "title": "stuck_100",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 104212
+    }
+  },
+  {
+    "id": 12,
+    "turn": 114,
+    "phase": "route1",
+    "title": "stuck_110",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 108244
+    }
+  },
+  {
+    "id": 13,
+    "turn": 124,
+    "phase": "route1",
+    "title": "stuck_120",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 112276
+    }
+  },
+  {
+    "id": 14,
+    "turn": 134,
+    "phase": "route1",
+    "title": "stuck_130",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 116308
+    }
+  },
+  {
+    "id": 15,
+    "turn": 144,
+    "phase": "route1",
+    "title": "stuck_140",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 120340
+    }
+  },
+  {
+    "id": 16,
+    "turn": 154,
+    "phase": "route1",
+    "title": "stuck_150",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 124372
+    }
+  },
+  {
+    "id": 17,
+    "turn": 164,
+    "phase": "route1",
+    "title": "stuck_160",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 128404
+    }
+  },
+  {
+    "id": 18,
+    "turn": 174,
+    "phase": "route1",
+    "title": "stuck_170",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 132436
+    }
+  },
+  {
+    "id": 19,
+    "turn": 184,
+    "phase": "route1",
+    "title": "stuck_180",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 136468
+    }
+  },
+  {
+    "id": 20,
+    "turn": 194,
+    "phase": "route1",
+    "title": "stuck_190",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 140500
+    }
+  },
+  {
+    "id": 21,
+    "turn": 204,
+    "phase": "route1",
+    "title": "stuck_200",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 144532
+    }
+  },
+  {
+    "id": 22,
+    "turn": 214,
+    "phase": "route1",
+    "title": "stuck_210",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 148564
+    }
+  },
+  {
+    "id": 23,
+    "turn": 224,
+    "phase": "route1",
+    "title": "stuck_220",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 152596
+    }
+  },
+  {
+    "id": 24,
+    "turn": 234,
+    "phase": "route1",
+    "title": "stuck_230",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 156628
+    }
+  },
+  {
+    "id": 25,
+    "turn": 244,
+    "phase": "route1",
+    "title": "stuck_240",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 160660
+    }
+  },
+  {
+    "id": 26,
+    "turn": 254,
+    "phase": "route1",
+    "title": "stuck_250",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 164692
+    }
+  },
+  {
+    "id": 27,
+    "turn": 264,
+    "phase": "route1",
+    "title": "stuck_260",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 168724
+    }
+  },
+  {
+    "id": 28,
+    "turn": 274,
+    "phase": "route1",
+    "title": "stuck_270",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 172756
+    }
+  },
+  {
+    "id": 29,
+    "turn": 284,
+    "phase": "route1",
+    "title": "stuck_280",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 176788
+    }
+  },
+  {
+    "id": 30,
+    "turn": 294,
+    "phase": "route1",
+    "title": "stuck_290",
+    "detail": "y=1 x=5",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 180820
+    }
+  },
+  {
+    "id": 31,
+    "turn": 304,
+    "phase": "route1",
+    "title": "timeout",
+    "detail": "300 steps no Viridian",
+    "fix": "",
+    "state": {
+      "map": 38,
+      "y": 1,
+      "x": 5,
+      "battle": 0,
+      "party": 0,
+      "badges": 0,
+      "wy": 144,
+      "joy": 172,
+      "walk": 0,
+      "fr": 184628
+    }
+  }
+]

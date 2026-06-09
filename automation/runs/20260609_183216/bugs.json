@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "turn": 0,
+    "phase": "pallet",
+    "title": "pallet_north_fail",
+    "detail": "y=2 x=5",
+    "fix": "",
+    "state": {
+      "map": 0,
+      "y": 2,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 5391
+    }
+  },
+  {
+    "id": 2,
+    "turn": 500,
+    "phase": "route1",
+    "title": "route1_timeout",
+    "detail": "500 steps, 0 battles, no Viridian",
+    "fix": "",
+    "state": {
+      "map": 0,
+      "y": 2,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 87227
+    }
+  }
+]

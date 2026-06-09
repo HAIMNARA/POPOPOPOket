@@ -1,10 +1,8 @@
 """
-Pokemon Red Automation v4 - PyBoy 1.6.9
-Fixes from v1-v3:
-  v1: screen_image() not get_screen_image()
-  v2: joyIgnore(0xCDCB)=172 permanently -> removed from gate
-  v3: stairs at TOP-RIGHT (y=1-2, x=6-7), NOT bottom. Walk UP then RIGHT.
-  v4: correct bedroom escape path + proper 1F->Pallet routing
+Pokemon Red Automation v5 - PyBoy 1.6.9
+Strategy: Use PokemonRedExperiments save state (has_pokedex_nballs)
+to skip intro/bedroom, start from Oak's Lab with Pokemon + Pokeballs.
+Goal: Lab -> Pallet Town -> Route 1 -> Viridian City
 """
 import time, json, traceback
 from pathlib import Path
@@ -12,11 +10,12 @@ from pyboy import PyBoy
 from pyboy.utils import WindowEvent
 
 ROM = r"C:\Users\하미\Downloads\Pokemon - Red Version.gb"
+SAVE_STATE = r"C:\Users\하미\AppData\Local\Temp\opencode\PokemonRedExperiments\has_pokedex_nballs.state"
 RUN = Path(__file__).parent / "runs" / time.strftime("%Y%m%d_%H%M%S")
 
 A_MAP=0xD35E; A_Y=0xD361; A_X=0xD362; A_BATTLE=0xD057
 A_PARTY=0xD163; A_BADGES=0xD356; A_WY=0xFF4A; A_WALK=0xD00D
-M_PALLET=0; M_VIRIDIAN=1; M_ROUTE1=12; M_HOUSE1F=37; M_HOUSE2F=38; M_LAB=40
+M_PALLET=0; M_VIRIDIAN=1; M_ROUTE1=12; M_LAB=40
 
 BTN={
  'a':(WindowEvent.PRESS_BUTTON_A,WindowEvent.RELEASE_BUTTON_A),
@@ -33,7 +32,14 @@ class Player:
         RUN.mkdir(parents=True, exist_ok=True)
         (RUN/"ss").mkdir(exist_ok=True)
         self.pb = PyBoy(ROM, window_type='headless')
+        self.pb.tick()
+        # Load save state
+        with open(SAVE_STATE, 'rb') as f:
+            self.pb.load_state(f)
+        for _ in range(60): self.pb.tick()
         self.turn=0; self.phase="init"; self.events=[]; self.bugs=[]
+        s = self.st()
+        self.log(f"Loaded save: map={s['map']} y={s['y']} x={s['x']} party={s['party']}")
 
     def r(self, a): return self.pb.get_memory_value(a)
     def tick(self, n=1):
@@ -77,7 +83,7 @@ class Player:
 
     def log(self, msg):
         s=self.st()
-        line=f"[T{self.turn:04d}|{self.phase}] {msg} | m={s['map']} y={s['y']} x={s['x']} b={s['battle']} p={s['party']} wy={s['wy']}"
+        line=f"[T{self.turn:04d}|{self.phase}] {msg} | m={s['map']} y={s['y']} x={s['x']} b={s['battle']} p={s['party']}"
         print(line); self.events.append(dict(turn=self.turn,phase=self.phase,msg=msg,state=s,ts=time.time()))
 
     def bug(self, title, detail, fix=""):
@@ -85,262 +91,210 @@ class Player:
                title=title,detail=detail,fix=fix,state=self.st())
         self.bugs.append(b); print(f"  [BUG#{b['id']}] {title}: {detail}")
 
-    # === TITLE + INTRO ===
-    def do_title_and_intro(self):
-        self.phase="title"
-        self.log("Wait 2000fr"); self.tick(2000)
-        self.ss("title")
-        self.press('start'); self.tick(300)
-        for _ in range(3): self.a(120)
-
-        self.phase="intro"
-        self.log("Oak intro...")
-        for i in range(15): self.a(100)
-        self.log("Name: DOWN+A")
-        self.tick(100); self.press('down'); self.tick(50); self.a(100)
-        for _ in range(8): self.a(100)
-        self.log("Rival: DOWN+A")
-        self.tick(100); self.press('down'); self.tick(50); self.a(100)
-        for _ in range(30): self.a(80)
-        self.log("Wait 2000fr for bedroom load")
-        self.tick(2000)
-        n=self.clear_dialog(60)
-        self.log(f"Cleared {n} dlg")
-        self.ss("intro_done")
-        self.turn+=1
-
-    # === BEDROOM: v4 fix - walk UP then RIGHT to stairs ===
-    def do_bedroom(self):
-        self.phase="bedroom"
-        s=self.st()
-        self.log(f"Bedroom y={s['y']} x={s['x']}")
-        self.ss("bed_start")
+    # === EXIT LAB ===
+    def do_exit_lab(self):
+        self.phase = "exit_lab"
+        s = self.st()
+        self.log(f"Lab: y={s['y']} x={s['x']}")
+        self.ss("lab_start")
         self.clear_dialog(10)
 
-        if s['map'] != M_HOUSE2F:
-            self.log(f"Not bedroom (m={s['map']}), skip"); return
-
-        # v4 FIX: stairs at TOP-RIGHT (y~1-2, x~6-7)
-        # Step 1: Walk UP 5 tiles (y=6 -> y=1)
-        self.log("Walking UP toward stairs...")
-        for i in range(6):
-            prev = self.r(A_Y)
-            self.walk('up')
-            ny = self.r(A_Y); nm = self.r(A_MAP)
-            self.log(f"Up#{i}: y={prev}->{ny} m={nm}")
-            if nm != M_HOUSE2F:
-                self.log(f"Map changed to {nm} going UP!"); self.ss("bed_exit_up"); return
-            if self.has_dialog(): self.clear_dialog(3)
-
-        # Step 2: Walk RIGHT until stairs (x=3 -> x=7+)
-        self.log("Walking RIGHT toward stair area...")
-        for i in range(6):
-            prev = self.r(A_X)
-            self.walk('right')
-            nx = self.r(A_X); nm = self.r(A_MAP)
-            self.log(f"Right#{i}: x={prev}->{nx} m={nm}")
-            if nm != M_HOUSE2F:
-                self.log(f"Map changed to {nm} going RIGHT!"); self.ss("bed_exit_right"); return
-            if self.has_dialog(): self.clear_dialog(3)
-
-        # Step 3: Try DOWN from top-right (stair might trigger going down)
-        self.log("Trying DOWN from top-right...")
-        for i in range(4):
-            prev_y = self.r(A_Y)
-            self.walk('down')
-            ny = self.r(A_Y); nm = self.r(A_MAP)
-            self.log(f"Down#{i}: y={prev_y}->{ny} m={nm}")
-            if nm != M_HOUSE2F:
-                self.log(f"Reached 1F! m={nm}"); self.ss("bed_exit_down"); return
-
-        # Step 4: Walk systematically around top area
-        self.log("Systematic top-area scan...")
-        for d in ['left','down','right','right','down','left','left','down']:
-            self.walk(d)
-            nm = self.r(A_MAP)
-            if nm != M_HOUSE2F:
-                self.log(f"Found exit! m={nm}"); self.ss("bed_exit"); return
-
-        self.ss("bed_stuck")
-        self.bug("bedroom_v4","Still stuck after UP+RIGHT+DOWN scan")
-        self.turn+=1
-
-    # === HOUSE 1F ===
-    def do_house1f(self):
-        self.phase="house1f"
-        s=self.st()
-        self.log(f"1F: m={s['map']} y={s['y']} x={s['x']}")
-        self.ss("1f_start")
-        self.clear_dialog(5)
-
-        if s['map'] != M_HOUSE1F: return
-
-        # Walk DOWN to exit door, AVOID going back UP to stairs
-        for i in range(12):
+        # Walk down to exit lab door
+        for i in range(15):
             self.walk('down')
             nm = self.r(A_MAP)
             ny = self.r(A_Y)
-            self.log(f"1F down#{i}: y={ny} m={nm}")
-            if nm == M_PALLET:
-                self.log("Exited to Pallet!"); self.ss("pallet_arrive"); return
-            if nm == M_HOUSE2F:
-                # Went back upstairs! Walk away from stair and try down again
-                self.log("Went back to 2F! Walking left then down...")
-                self.walk('left'); self.walk('left')
-                self.walk('down'); self.walk('down')
-            if self.has_dialog(): self.clear_dialog(3)
+            if nm != M_LAB:
+                self.log(f"Exited lab! map={nm} y={ny}")
+                # v6 FIX: walk LEFT to clear lab entrance before going north
+                for _ in range(4):
+                    self.walk('left')
+                self.ss("lab_exit")
+                return True
+            if self.has_dialog():
+                self.clear_dialog(5)
+            if i % 3 == 0:
+                self.log(f"Down#{i} y={ny} map={nm}")
 
-        self.bug("1f_stuck","Could not exit house 1F")
-        self.turn+=1
+        self.bug("lab_exit_fail", "Could not exit lab in 15 steps")
+        return False
 
-    # === PALLET TOWN ===
-    def do_pallet(self):
-        self.phase="pallet"
-        s=self.st()
-        self.log(f"Pallet: m={s['map']} y={s['y']} x={s['x']}")
+    # === PALLET TOWN -> ROUTE 1 ===
+    def do_pallet_north(self):
+        self.phase = "pallet"
+        s = self.st()
+        self.log(f"Pallet: y={s['y']} x={s['x']}")
         self.ss("pallet")
 
-        # Walk south to trigger Oak cutscene
-        for i in range(25):
-            self.walk('down')
-            if self.has_dialog():
-                self.log(f"Oak event at step {i}!")
-                self.clear_dialog(80)
-                break
-            if i%5==0: self.log(f"Step {i} y={self.r(A_Y)}")
-
-        self.tick(200); self.clear_dialog(60)
-        self.ss("oak_done")
-        s=self.st()
-        self.log(f"After Oak: m={s['map']} y={s['y']} x={s['x']}")
-        self.turn+=1
-
-    # === LAB ===
-    def do_lab(self):
-        self.phase="lab"
-        s=self.st()
-        self.log(f"Lab: m={s['map']} y={s['y']} x={s['x']} p={s['party']}")
-        if s['party']>0: self.log("Have Pokemon already"); return
-        self.ss("lab_start")
-        self.clear_dialog(20)
-
-        # Walk up to pokeball table
-        for _ in range(6):
-            self.walk('up')
+        # v6 finding: Lab blocks direct north. Walk LEFT to clear buildings first.
+        self.log("Walking LEFT to bypass buildings...")
+        for _ in range(8):
+            self.walk('left')
             if self.has_dialog(): self.clear_dialog(5)
 
-        # Interact with pokeballs (try center one for Squirtle)
-        for attempt in range(5):
-            self.a(80); self.clear_dialog(10)
-            if self.r(A_PARTY)>0:
-                self.log(f"Got starter attempt#{attempt}!"); break
-            self.walk('right')
-
-        self.clear_dialog(30)
-        s=self.st()
-        self.log(f"Party={s['party']}")
-        if s['party']==0: self.bug("no_starter","party=0")
-        self.ss("lab_done"); self.turn+=1
-
-    # === RIVAL BATTLE ===
-    def do_battle(self):
-        self.phase="battle"
-        for _ in range(40):
-            self.a(25)
-            if self.r(A_BATTLE)!=0: break
-        if self.r(A_BATTLE)!=0:
-            self.log("Battle!"); self.ss("bstart"); t=0
-            while self.r(A_BATTLE)!=0 and t<60:
-                self.a(20); self.a(20)
-                for _ in range(10): self.a(15)
-                t+=1
-                if t%10==0: self.log(f"Turn {t}")
-            self.log(f"Won in {t}"); self.ss("bend")
-        else: self.log("No battle")
-        self.clear_dialog(20); self.turn+=1
-
-    # === ROUTE 1 ===
-    def do_route1(self):
-        self.phase="route1"
-        s=self.st()
-        self.log(f"Route1: m={s['map']} y={s['y']} x={s['x']}")
-
-        # Exit lab/house if needed
-        while self.r(A_MAP) in (M_LAB, M_HOUSE1F, M_HOUSE2F):
-            self.walk('down')
-            if self.has_dialog(): self.clear_dialog(3)
-            if self.r(A_MAP)==M_HOUSE2F:
-                self.walk('left'); self.walk('left'); self.walk('down')
-
-        ly,lx=self.r(A_Y),self.r(A_X); stuck=0
-        for step in range(500):
-            m=self.r(A_MAP)
-            if m==M_VIRIDIAN:
-                self.log("VIRIDIAN CITY!"); self.ss("viridian"); return True
-            if self.r(A_BATTLE)!=0:
-                self.log(f"Wild @{step}"); self._wild(); stuck=0; continue
-            if self.has_dialog(): self.clear_dialog(5); continue
-
+        # Now walk UP along the western edge toward Route 1
+        self.log("Walking UP on western path...")
+        for i in range(25):
             self.walk('up')
-            ny,nx=self.r(A_Y),self.r(A_X)
-            if ny==ly and nx==lx:
-                stuck+=1
-                if stuck>=8:
-                    for d in ['right','up','up','left','up','up']:
+            nm = self.r(A_MAP)
+            ny = self.r(A_Y)
+            if nm == M_ROUTE1 or nm == M_VIRIDIAN:
+                self.log(f"Reached map={nm}! y={ny}")
+                self.ss("route1_enter")
+                return True
+            if self.has_dialog():
+                self.clear_dialog(10)
+            if i % 5 == 0:
+                self.log(f"North#{i} y={ny} x={self.r(A_X)} map={nm}")
+
+        # Broader exploration if still stuck
+        self.log("Still in Pallet, broader search...")
+        for d_seq in [
+            ['right','up','up','up','right','up','up'],
+            ['left','up','up','left','up','up','up'],
+            ['right','right','right','up','up','up','up','up'],
+        ]:
+            for d in d_seq:
+                self.walk(d)
+                nm = self.r(A_MAP)
+                if nm != M_PALLET and nm != 0:
+                    self.log(f"Found exit! map={nm}")
+                    return True
+                if self.has_dialog(): self.clear_dialog(5)
+
+        self.bug("pallet_north_fail", f"y={self.r(A_Y)} x={self.r(A_X)}")
+        return False
+
+    # === ROUTE 1: auto-north to Viridian ===
+    def do_route1(self):
+        self.phase = "route1"
+        s = self.st()
+        self.log(f"Route 1: map={s['map']} y={s['y']} x={s['x']}")
+        self.ss("route1_start")
+
+        ly, lx = self.r(A_Y), self.r(A_X)
+        stuck = 0
+        battles = 0
+
+        for step in range(500):
+            m = self.r(A_MAP)
+
+            # Victory check
+            if m == M_VIRIDIAN:
+                self.log(f"VIRIDIAN CITY REACHED! Step {step}, battles={battles}")
+                self.ss("viridian_arrived")
+                return True
+
+            # Wild battle
+            if self.r(A_BATTLE) != 0:
+                battles += 1
+                self.log(f"Wild battle #{battles} at step {step}")
+                if battles <= 3:
+                    self.ss(f"battle_{battles}")
+                self._handle_battle()
+                stuck = 0
+                continue
+
+            # Dialog
+            if self.has_dialog():
+                self.clear_dialog(5)
+                continue
+
+            # Walk north (main direction)
+            self.walk('up')
+            ny, nx = self.r(A_Y), self.r(A_X)
+
+            # Stuck detection
+            if ny == ly and nx == lx:
+                stuck += 1
+                if stuck >= 6:
+                    self.log(f"Stuck at y={ny} x={nx}, detour")
+                    # Try going around obstacles
+                    detour_dirs = ['right','up','up','up','left','up'] if stuck % 2 == 0 else ['left','up','up','up','right','up']
+                    for d in detour_dirs:
                         self.walk(d)
-                        if self.r(A_MAP)==M_VIRIDIAN: return True
-                        if self.r(A_BATTLE)!=0: self._wild(); break
-                    stuck=0
-            else: stuck=0; ly,lx=ny,nx
-            if step%30==0: self.log(f"Step {step} m={m} y={ny} x={nx}")
-            self.turn+=1
-        self.bug("timeout","500 steps"); return False
+                        nm = self.r(A_MAP)
+                        if nm == M_VIRIDIAN:
+                            self.log("Viridian via detour!")
+                            self.ss("viridian_detour")
+                            return True
+                        if self.r(A_BATTLE) != 0:
+                            self._handle_battle()
+                            break
+                    stuck = 0
+            else:
+                stuck = 0
+                ly, lx = ny, nx
 
-    def _wild(self):
-        self.ss("wild"); t=0
-        while self.r(A_BATTLE)!=0 and t<40:
-            if t==0:
-                self.press('down'); self.tick(6)
-                self.press('right'); self.tick(6)
+            if step % 25 == 0:
+                self.log(f"Step {step}: m={m} y={ny} x={nx} battles={battles}")
+
+            self.turn += 1
+
+        self.bug("route1_timeout", f"500 steps, {battles} battles, no Viridian")
+        return False
+
+    def _handle_battle(self):
+        """Handle wild battle: try RUN first, then FIGHT."""
+        turns = 0
+        while self.r(A_BATTLE) != 0 and turns < 50:
+            if turns < 3:
+                # Try to RUN (bottom-right option in battle menu)
+                self.press('down'); self.tick(4)
+                self.press('right'); self.tick(4)
                 self.a(50)
-                for _ in range(5): self.a(15)
-                if self.r(A_BATTLE)==0: self.log("Ran!"); return
-            self.a(20); self.a(20)
-            for _ in range(8): self.a(15)
-            t+=1
-        self.log(f"Wild: {t}t")
+                # Advance any narration
+                for _ in range(6):
+                    self.a(15)
+                if self.r(A_BATTLE) == 0:
+                    return  # Escaped!
 
+            # FIGHT: press A twice (FIGHT menu -> first move)
+            self.a(25)
+            self.a(25)
+            # Advance battle narration
+            for _ in range(10):
+                self.a(15)
+            turns += 1
+
+    # === SAVE ===
     def save(self):
-        for nm,dt in [("events.json",self.events),("bugs.json",self.bugs),("final.json",self.st())]:
-            with open(RUN/nm,'w',encoding='utf-8') as f: json.dump(dt,f,ensure_ascii=False,indent=2)
-        s=self.st()
+        for nm, dt in [("events.json", self.events), ("bugs.json", self.bugs), ("final.json", self.st())]:
+            with open(RUN/nm, 'w', encoding='utf-8') as f:
+                json.dump(dt, f, ensure_ascii=False, indent=2)
+        s = self.st()
         print(f"\n{'='*60}")
-        print(f"T={self.turn} E={len(self.events)} B={len(self.bugs)}")
-        print(f"m={s['map']} y={s['y']} x={s['x']} p={s['party']} badges={s['badges']}")
+        print(f"Turns={self.turn} Events={len(self.events)} Bugs={len(self.bugs)}")
+        print(f"map={s['map']} y={s['y']} x={s['x']} party={s['party']} badges={s['badges']}")
         print(f"Dir: {RUN}")
         print(f"{'='*60}")
 
+    # === MAIN ===
     def run(self):
-        t0=time.time()
+        t0 = time.time()
         try:
-            self.do_title_and_intro()
-            s=self.st()
-            self.log(f"Post-intro m={s['map']} p={s['party']}")
+            # Phase 1: Exit Lab
+            if self.r(A_MAP) == M_LAB:
+                self.do_exit_lab()
 
-            if s['map']==M_HOUSE2F: self.do_bedroom()
-            s=self.st()
-            if s['map']==M_HOUSE1F: self.do_house1f()
-            s=self.st()
-            if s['map'] in (M_PALLET,0): self.do_pallet()
-            s=self.st()
-            if s['map']==M_LAB or s['party']==0: self.do_lab()
-            s=self.st()
-            if s['party']>0: self.do_battle()
-            reached=self.do_route1()
-            self.log(f"Done {time.time()-t0:.1f}s viridian={reached}")
+            # Phase 2: Pallet Town -> north
+            s = self.st()
+            if s['map'] == M_PALLET or s['map'] == M_LAB:
+                self.do_pallet_north()
+
+            # Phase 3: Route 1 -> Viridian
+            reached = self.do_route1()
+
+            elapsed = time.time() - t0
+            self.log(f"DONE: {elapsed:.1f}s | Viridian={reached}")
+            self.ss("final")
+
         except Exception as e:
-            self.bug("crash",f"{type(e).__name__}: {e}",traceback.format_exc())
+            self.bug("crash", f"{type(e).__name__}: {e}", traceback.format_exc())
+            self.log(f"CRASH: {e}")
         finally:
-            self.save(); self.pb.stop()
+            self.save()
+            self.pb.stop()
 
-if __name__=="__main__": Player().run()
+if __name__ == "__main__":
+    Player().run()

@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "turn": 0,
+    "phase": "pallet",
+    "title": "pallet_north_fail",
+    "detail": "Could not reach Route 1 from Pallet",
+    "fix": "",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 6,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 3177
+    }
+  },
+  {
+    "id": 2,
+    "turn": 500,
+    "phase": "route1",
+    "title": "route1_timeout",
+    "detail": "500 steps, 0 battles, no Viridian",
+    "fix": "",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 6,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 85013
+    }
+  }
+]

@@ -173,12 +173,53 @@
 
 ---
 
+## v5-v7 실행: 세이브 스테이트 + Lab 탈출 + Pallet Town
+
+### v5: PokemonRedExperiments 세이브 스테이트 검증
+
+**FINDING-005: 사용 가능한 세이브 스테이트**
+| 파일 | map | y | x | party | badges | 설명 |
+|------|-----|---|---|-------|--------|------|
+| init.state | 38 | 6 | 3 | 0 | 0 | 침실 (인트로 직후) |
+| fast_text_start.state | 38 | 6 | 3 | 0 | 0 | 침실 (빠른 텍스트) |
+| has_pokedex.state | 40 | 3 | 5 | 1 | 0 | Oak's Lab, 포켓몬 1마리 |
+| has_pokedex_nballs.state | 40 | 3 | 5 | 1 | 0 | Oak's Lab, 포켓몬 + 몬스터볼 |
+
+**FINDING-006: joyIgnore=172는 ROM 정상 값**
+- 세이브 스테이트(PokemonRedExperiments의 검증된 상태)에서도 joy=172
+- 인트로 미완료가 아닌, ROM 자체의 정상 동작
+- 결론: 0xCDCB는 이 ROM에서 입력 게이트로 사용 불가
+
+**FINDING-007: 침실 BFS 결과 (18개 좌표, 출구 없음)**
+- 워프 미활성화 원인 불명 (세이브 스테이트에서도 동일)
+- 침실 우회: `has_pokedex` 세이브 스테이트로 스킵 가능
+
+### v5 BUG: Lab 재진입
+
+**BUG-008: Lab 출구 → 바로 위로 → Lab 재진입**
+- 증상: Lab 탈출 후 map=0 y=12 x=12, 위로 한 걸음 → map=40 (Lab)
+- 원인: Lab 입구가 바로 위에 위치
+- 해결: 탈출 후 LEFT 4칸 이동 → Lab 입구에서 벗어남
+
+### v6 결과: Pallet Town 탐색
+
+**FINDING-008: Pallet Town 이동 가능 범위**
+- Lab 출구: (y=12, x=12) → LEFT 이동 → (y=12, x=1)
+- 북상: y=12 → y=2 (10타일 이동 성공)
+- y=2 이후 북상 불가 (나무/펜스 차단)
+- Route 1 출구: Pallet 북쪽 경계의 특정 x 좌표 틈으로 추정
+
+**BUG-009: Pallet Town Route 1 출구 미발견**
+- y=2에서 x=1~6 범위 탐색 → 북상 불가
+- Route 1(map=12) 전환 안됨
+- 추정: 출구가 특정 x 좌표에만 존재하거나 이벤트 플래그 필요
+
 ## 다음 단계 (재시작 시 참고)
 
 ### 즉시 해결 필요
-1. 침실 계단 워프 좌표 정확히 확인 (pokered 소스 또는 brute-force)
-2. 세이브 스테이트 활용으로 인트로 스킵 검토
-3. PyBoy Pokemon Gen1 game_wrapper 존재 시 `start_game()` 메서드 활용
+1. Pallet Town BFS로 Route 1 출구 정확한 좌표 확인
+2. pokered 디스어셈블리에서 Pallet Town north connection 데이터 확인
+3. PokemonRedExperiments의 coordinate tracking 참고
 
 ### 침실 탈출 후 예상 흐름
 ```

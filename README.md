@@ -1,11 +1,16 @@
-# POPOPOPOket — 포켓몬 레드 자동화 플레이 워크플로우 & 공략 아카이브
+# POPOPOPOket — 포켓몬 레드 AI 자동화 최적 워크플로우 & 지식 아카이브
 
-LLM 에이전트가 mGBA에서 구동 중인 **포켓몬 레드(Game Boy)** 를 자동으로 플레이하도록 만든
-실험의 워크플로우, 공략 지식, 하드원(hard-won) 교훈을 한곳에 체계화한 저장소입니다.
+LLM 에이전트, 강화학습(RL), 하이브리드 접근법을 종합 분석하여 **포켓몬 레드(Game Boy)** 를
+자동으로 플레이하기 위한 최적 워크플로우와 공략 지식을 체계화한 저장소입니다.
 
-> **목표 마일스톤**: RED 캐릭터를 침실(2F)에서 출발시켜 **Viridian City(초록마을)** 까지 자율 진행.
-> 이 저장소는 그 과정에서 만든 자동화 파이프라인 설계, 포켓몬 레드 RAM 맵, 공략 루트,
-> 자동조종 로직, 그리고 수없이 깨지면서 알아낸 함정들을 정리한 **지식 베이스**입니다.
+3개 프로젝트를 분석하여 도출한 결과물입니다:
+- **[Grokemon](https://github.com/INONONO66/grokemon)** — Grok 4.3 LLM 에이전트 (TypeScript, mGBA-http)
+- **[PokemonRedExperiments](https://github.com/PWhiddy/PokemonRedExperiments)** — PPO 강화학습 (Python, PyBoy, 7.9k stars)
+- **POPOPOPOket** — 워크플로우/공략 지식 아카이브 (본 저장소)
+
+> **핵심 발견**: 하이브리드 접근(LLM 상위 계획 + 결정론적/RL 하위 실행)이 순수 LLM이나 RL보다 우수하다.
+> 메모리 마스킹으로 벽 탐색 수십턴을 1-2턴으로 단축하고, stuck-memory로 무한반복을 차단하며,
+> fast-flow로 결정론적 구간의 토큰을 70% 이상 절약할 수 있다.
 
 ---
 
@@ -23,7 +28,28 @@ LLM 에이전트가 mGBA에서 구동 중인 **포켓몬 레드(Game Boy)** 를 
 
 ---
 
-## 문서 인덱스
+## Ultimate 문서 (3개 프로젝트 종합 분석)
+
+Grokemon(LLM), PokemonRedExperiments(RL), POPOPOPOket(지식)을 종합 분석하여 도출한 최적 워크플로우입니다.
+
+| 문서 | 내용 |
+|---|---|
+| [00 · 종합 개요](docs/ultimate/00-executive-summary.md) | 3개 프로젝트 비교, 핵심 발견, 최적 접근법 요약 |
+| [01 · 아키텍처 비교](docs/ultimate/01-architecture-comparison.md) | LLM vs RL vs Hybrid 아키텍처 다이어그램 + 컴포넌트별 비교표 |
+| [02 · 통합 환경 구축](docs/ultimate/02-environment-setup.md) | mGBA-http + PyBoy 양쪽 설정, 검증, 트러블슈팅 |
+| [03 · 통합 RAM 레퍼런스](docs/ultimate/03-ram-reference.md) | 3개 프로젝트 통합 메모리 주소 (플레이어/파티/배틀/맵/이벤트) |
+| [04 · 에이전트 설계 패턴](docs/ultimate/04-agent-design-patterns.md) | LLM/RL/하이브리드 3가지 패러다임, 다층 아키텍처, 유전 알고리즘 |
+| [05 · 보상 설계 & 진행도 감지](docs/ultimate/05-reward-and-progress.md) | RL 보상 V1/V2 상세, LLM 9단계 체크포인트, 마일스톤 시스템 |
+| [06 · 입력 안전 메커니즘](docs/ultimate/06-input-safety.md) | InputGate 3단계, wJoyIgnore, Supervisor 정규화, Guards |
+| [07 · 막힘 감지 & 복구](docs/ultimate/07-stuck-detection.md) | StuckDetector 5레벨, stuck-memory, InterventionLoop |
+| [08 · 비전 & 관측 시스템](docs/ultimate/08-vision-and-observation.md) | 비전 입력 v0-v3 진화, 메모리 마스킹, 관측 빌더 |
+| [09 · 통합 함정 아카이브](docs/ultimate/09-pitfalls-archive.md) | 3개 프로젝트 통합 20건+ 함정, 빠른 진단 체크리스트 |
+| [10 · 최적 워크플로우](docs/ultimate/10-optimal-workflow.md) | **핵심 문서** — 단계별 구현 가이드, 결정 트리, 모델 비교, 안티패턴 |
+| [11 · 미래 로드맵](docs/ultimate/11-future-roadmap.md) | P0/P1/P2 개선 사항, 기술 스택 진화 v1-v3 |
+
+---
+
+## 원본 문서 (POPOPOPOket 실험 기록)
 
 | 문서 | 내용 |
 |---|---|
@@ -36,8 +62,8 @@ LLM 에이전트가 mGBA에서 구동 중인 **포켓몬 레드(Game Boy)** 를 
 | [07 · 함정 아카이브](docs/07-pitfalls-archive.md) | 재발 방지 교훈 15건 (스크립트 무한루프 사고, 풀숲 오인식 등) |
 | [08 · 회의 리뷰 (2026-06-06)](docs/08-meeting-review-2026-06-06.md) | 자동화 발표 세션 체계화, 참가자별 아키텍처, Grok 효과, 핵심 인사이트 |
 | [09 · 향후 로드맵](docs/09-next-roadmap.md) | pyboy 도입, 포획 이벤트, 완전 자동화 에이전트, 기술 스택 진화 |
-| [10 · 포스트모템: 스크립트 오류 & Grok 효과](docs/10-grok-script-error-postmortem.md) | **신규** — "스크립트 추가" 무한루프 사고 원인/해결, Grok 모델 효과 분석 |
-| [launch-pokemon.ps1](harness/launch-pokemon.ps1) | **신규** — 원클릭 런처 (mGBA→Lua GUI 로드→mGBA-http→체인 검증) |
+| [10 · 포스트모템: 스크립트 오류 & Grok 효과](docs/10-grok-script-error-postmortem.md) | "스크립트 추가" 무한루프 사고 원인/해결, Grok 모델 효과 분석 |
+| [launch-pokemon.ps1](harness/launch-pokemon.ps1) | 원클릭 런처 (mGBA→Lua GUI 로드→mGBA-http→체인 검증) |
 
 ---
 

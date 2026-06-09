@@ -203,25 +203,19 @@ class Player:
             # Stuck detection
             if ny == ly and nx == lx:
                 stuck += 1
-                if stuck >= 5:
-                    pats=[
-                        ['right','up','up','up','left','up'],
-                        ['left','up','up','up','right','up'],
-                        ['right','right','up','up','left','left','up','up'],
-                        ['left','left','up','up','right','right','up','up'],
-                        ['right','right','right','up','up','up','left','left','left','up'],
-                    ]
-                    pat=pats[(stuck//5)%len(pats)]
-                    self.log(f"Stuck y={ny} x={nx}, pattern #{(stuck//5)%len(pats)}")
-                    for d in pat:
-                        self.walk(d)
-                        if self.r(A_MAP)==M_VIRIDIAN:
-                            self.log("Viridian via detour!")
-                            self.ss("viridian_detour")
-                            return True
-                        if self.r(A_BATTLE)!=0:
-                            self._handle_battle()
-                            break
+                if stuck >= 4:
+                    attempt = stuck // 4
+                    side = 'left' if attempt % 2 == 0 else 'right'
+                    dist = min(2 + attempt, 6)
+                    self.log(f"Stuck y={ny} x={nx}, {side} x{dist}")
+                    for _ in range(dist):
+                        self.walk(side)
+                        if self.r(A_MAP)==M_VIRIDIAN: return True
+                        if self.r(A_BATTLE)!=0: self._handle_battle()
+                    for _ in range(dist):
+                        self.walk('up')
+                        if self.r(A_MAP)==M_VIRIDIAN: return True
+                        if self.r(A_BATTLE)!=0: self._handle_battle()
                     stuck = 0
             else:
                 stuck = 0

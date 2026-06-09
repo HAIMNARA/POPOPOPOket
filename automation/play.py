@@ -200,19 +200,26 @@ class Player:
             self.walk('up')
             ny, nx = self.r(A_Y), self.r(A_X)
 
-            # Stuck detection
+            m_now = self.r(A_MAP)
+            if m_now != M_ROUTE1 and m_now != M_VIRIDIAN:
+                self.log(f"Left Route 1! map={m_now}, navigating back")
+                for _ in range(15):
+                    self.walk('up')
+                    if self.r(A_MAP) in (M_ROUTE1, M_VIRIDIAN): break
+                    if self.r(A_BATTLE)!=0: self._handle_battle()
+                continue
+
             if ny == ly and nx == lx:
                 stuck += 1
-                if stuck >= 4:
-                    attempt = stuck // 4
-                    side = 'left' if attempt % 2 == 0 else 'right'
-                    dist = min(2 + attempt, 6)
-                    self.log(f"Stuck y={ny} x={nx}, {side} x{dist}")
+                if stuck >= 3:
+                    import random
+                    side = random.choice(['left','right'])
+                    dist = random.randint(1,4)
                     for _ in range(dist):
                         self.walk(side)
                         if self.r(A_MAP)==M_VIRIDIAN: return True
                         if self.r(A_BATTLE)!=0: self._handle_battle()
-                    for _ in range(dist):
+                    for _ in range(random.randint(1,3)):
                         self.walk('up')
                         if self.r(A_MAP)==M_VIRIDIAN: return True
                         if self.r(A_BATTLE)!=0: self._handle_battle()

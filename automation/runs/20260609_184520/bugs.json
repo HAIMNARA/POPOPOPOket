@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "turn": 498,
+    "phase": "route1",
+    "title": "route1_timeout",
+    "detail": "500 steps, 2 battles, no Viridian",
+    "fix": "",
+    "state": {
+      "map": 37,
+      "y": 1,
+      "x": 2,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 115905
+    }
+  }
+]

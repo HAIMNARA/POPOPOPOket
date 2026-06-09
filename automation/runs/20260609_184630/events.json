@@ -1,0 +1,461 @@
+[
+  {
+    "turn": 0,
+    "phase": "init",
+    "msg": "Loaded save: map=40 y=3 x=5 party=1",
+    "state": {
+      "map": 40,
+      "y": 3,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 61
+    },
+    "ts": 1780998390.2854369
+  },
+  {
+    "turn": 0,
+    "phase": "exit_lab",
+    "msg": "Lab: y=3 x=5",
+    "state": {
+      "map": 40,
+      "y": 3,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 61
+    },
+    "ts": 1780998390.2854369
+  },
+  {
+    "turn": 0,
+    "phase": "exit_lab",
+    "msg": "Down#0 y=4 map=40",
+    "state": {
+      "map": 40,
+      "y": 4,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 143
+    },
+    "ts": 1780998390.3209743
+  },
+  {
+    "turn": 0,
+    "phase": "exit_lab",
+    "msg": "Down#3 y=9 map=40",
+    "state": {
+      "map": 40,
+      "y": 9,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 389
+    },
+    "ts": 1780998390.3921664
+  },
+  {
+    "turn": 0,
+    "phase": "exit_lab",
+    "msg": "Exited lab! map=0 y=12",
+    "state": {
+      "map": 0,
+      "y": 12,
+      "x": 12,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 553
+    },
+    "ts": 1780998390.436165
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Pallet: y=12 x=12",
+    "state": {
+      "map": 0,
+      "y": 12,
+      "x": 12,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 799
+    },
+    "ts": 1780998390.4971013
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Walking to town center then UP...",
+    "state": {
+      "map": 0,
+      "y": 12,
+      "x": 12,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 799
+    },
+    "ts": 1780998390.5003028
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Walking UP from center...",
+    "state": {
+      "map": 0,
+      "y": 12,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 1045
+    },
+    "ts": 1780998390.559912
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#0 y=11 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 11,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 1127
+    },
+    "ts": 1780998390.5804923
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#5 y=10 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 1537
+    },
+    "ts": 1780998390.680546
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#10 y=10 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 1947
+    },
+    "ts": 1780998390.7813442
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#15 y=10 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 2357
+    },
+    "ts": 1780998390.884372
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#20 y=10 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 2767
+    },
+    "ts": 1780998390.9869847
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Still in Pallet, broader search...",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 3095
+    },
+    "ts": 1780998391.0670028
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Found exit! map=12",
+    "state": {
+      "map": 12,
+      "y": 34,
+      "x": 11,
+      "battle": 1,
+      "party": 1,
+      "badges": 0,
+      "wy": 0,
+      "walk": 128,
+      "fr": 4735
+    },
+    "ts": 1780998391.4419475
+  },
+  {
+    "turn": 0,
+    "phase": "route1",
+    "msg": "Route 1: map=12 y=34 x=11",
+    "state": {
+      "map": 12,
+      "y": 34,
+      "x": 11,
+      "battle": 1,
+      "party": 1,
+      "badges": 0,
+      "wy": 0,
+      "walk": 128,
+      "fr": 4735
+    },
+    "ts": 1780998391.4419475
+  },
+  {
+    "turn": 0,
+    "phase": "route1",
+    "msg": "Wild battle #1 at step 0",
+    "state": {
+      "map": 12,
+      "y": 34,
+      "x": 11,
+      "battle": 1,
+      "party": 1,
+      "badges": 0,
+      "wy": 0,
+      "walk": 128,
+      "fr": 4735
+    },
+    "ts": 1780998391.444629
+  },
+  {
+    "turn": 24,
+    "phase": "route1",
+    "msg": "Step 25: m=12 y=24 x=4 battles=1",
+    "state": {
+      "map": 12,
+      "y": 24,
+      "x": 4,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 12857
+    },
+    "ts": 1780998393.42277
+  },
+  {
+    "turn": 49,
+    "phase": "route1",
+    "msg": "Step 50: m=12 y=24 x=7 battles=1",
+    "state": {
+      "map": 12,
+      "y": 24,
+      "x": 8,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 17695
+    },
+    "ts": 1780998394.5703273
+  },
+  {
+    "turn": 74,
+    "phase": "route1",
+    "msg": "Step 75: m=12 y=20 x=7 battles=1",
+    "state": {
+      "map": 12,
+      "y": 20,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 21795
+    },
+    "ts": 1780998395.5106714
+  },
+  {
+    "turn": 99,
+    "phase": "route1",
+    "msg": "Step 100: m=12 y=4 x=15 battles=1",
+    "state": {
+      "map": 12,
+      "y": 4,
+      "x": 15,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 27739
+    },
+    "ts": 1780998396.9479215
+  },
+  {
+    "turn": 124,
+    "phase": "route1",
+    "msg": "Step 125: m=12 y=2 x=13 battles=1",
+    "state": {
+      "map": 12,
+      "y": 2,
+      "x": 13,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 32003
+    },
+    "ts": 1780998397.9135303
+  },
+  {
+    "turn": 149,
+    "phase": "route1",
+    "msg": "Step 150: m=12 y=2 x=7 battles=1",
+    "state": {
+      "map": 12,
+      "y": 2,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 36431
+    },
+    "ts": 1780998398.9173965
+  },
+  {
+    "turn": 174,
+    "phase": "route1",
+    "msg": "Step 175: m=12 y=2 x=5 battles=1",
+    "state": {
+      "map": 12,
+      "y": 2,
+      "x": 6,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 41187
+    },
+    "ts": 1780998399.9931567
+  },
+  {
+    "turn": 199,
+    "phase": "route1",
+    "msg": "Step 200: m=12 y=2 x=4 battles=1",
+    "state": {
+      "map": 12,
+      "y": 2,
+      "x": 4,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 45451
+    },
+    "ts": 1780998400.9645247
+  },
+  {
+    "turn": 203,
+    "phase": "route1",
+    "msg": "VIRIDIAN CITY REACHED! Step 204, battles=1",
+    "state": {
+      "map": 1,
+      "y": 35,
+      "x": 21,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 46107
+    },
+    "ts": 1780998401.1143713
+  },
+  {
+    "turn": 203,
+    "phase": "route1",
+    "msg": "DONE: 10.8s | Viridian=True",
+    "state": {
+      "map": 1,
+      "y": 35,
+      "x": 21,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 46107
+    },
+    "ts": 1780998401.1165326
+  }
+]

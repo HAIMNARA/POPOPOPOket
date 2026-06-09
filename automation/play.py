@@ -106,9 +106,8 @@ class Player:
             ny = self.r(A_Y)
             if nm != M_LAB:
                 self.log(f"Exited lab! map={nm} y={ny}")
-                # v6 FIX: walk LEFT to clear lab entrance before going north
-                for _ in range(4):
-                    self.walk('left')
+                for _ in range(3):
+                    self.walk('down')
                 self.ss("lab_exit")
                 return True
             if self.has_dialog():
@@ -127,13 +126,10 @@ class Player:
         self.ss("pallet")
 
         # v6 finding: Lab blocks direct north. Walk LEFT to clear buildings first.
-        self.log("Walking LEFT to bypass buildings...")
-        for _ in range(8):
+        self.log("Walking to town center then UP...")
+        for _ in range(3):
             self.walk('left')
-            if self.has_dialog(): self.clear_dialog(5)
-
-        # Now walk UP along the western edge toward Route 1
-        self.log("Walking UP on western path...")
+        self.log("Walking UP from center...")
         for i in range(25):
             self.walk('up')
             nm = self.r(A_MAP)
@@ -207,18 +203,23 @@ class Player:
             # Stuck detection
             if ny == ly and nx == lx:
                 stuck += 1
-                if stuck >= 6:
-                    self.log(f"Stuck at y={ny} x={nx}, detour")
-                    # Try going around obstacles
-                    detour_dirs = ['right','up','up','up','left','up'] if stuck % 2 == 0 else ['left','up','up','up','right','up']
-                    for d in detour_dirs:
+                if stuck >= 5:
+                    pats=[
+                        ['right','up','up','up','left','up'],
+                        ['left','up','up','up','right','up'],
+                        ['right','right','up','up','left','left','up','up'],
+                        ['left','left','up','up','right','right','up','up'],
+                        ['right','right','right','up','up','up','left','left','left','up'],
+                    ]
+                    pat=pats[(stuck//5)%len(pats)]
+                    self.log(f"Stuck y={ny} x={nx}, pattern #{(stuck//5)%len(pats)}")
+                    for d in pat:
                         self.walk(d)
-                        nm = self.r(A_MAP)
-                        if nm == M_VIRIDIAN:
+                        if self.r(A_MAP)==M_VIRIDIAN:
                             self.log("Viridian via detour!")
                             self.ss("viridian_detour")
                             return True
-                        if self.r(A_BATTLE) != 0:
+                        if self.r(A_BATTLE)!=0:
                             self._handle_battle()
                             break
                     stuck = 0

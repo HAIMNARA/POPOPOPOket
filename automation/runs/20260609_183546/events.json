@@ -1,0 +1,2025 @@
+[
+  {
+    "turn": 0,
+    "phase": "init",
+    "msg": "Loaded save: map=40 y=3 x=5 party=1",
+    "state": {
+      "map": 40,
+      "y": 3,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 61
+    },
+    "ts": 1780997746.2176118
+  },
+  {
+    "turn": 0,
+    "phase": "exit_lab",
+    "msg": "Lab: y=3 x=5",
+    "state": {
+      "map": 40,
+      "y": 3,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 61
+    },
+    "ts": 1780997746.2176118
+  },
+  {
+    "turn": 0,
+    "phase": "exit_lab",
+    "msg": "Down#0 y=4 map=40",
+    "state": {
+      "map": 40,
+      "y": 4,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 143
+    },
+    "ts": 1780997746.2604332
+  },
+  {
+    "turn": 0,
+    "phase": "exit_lab",
+    "msg": "Down#3 y=9 map=40",
+    "state": {
+      "map": 40,
+      "y": 9,
+      "x": 5,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 389
+    },
+    "ts": 1780997746.3405993
+  },
+  {
+    "turn": 0,
+    "phase": "exit_lab",
+    "msg": "Exited lab! map=0 y=12",
+    "state": {
+      "map": 0,
+      "y": 12,
+      "x": 12,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 553
+    },
+    "ts": 1780997746.3881905
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Pallet: y=12 x=12",
+    "state": {
+      "map": 0,
+      "y": 12,
+      "x": 12,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 799
+    },
+    "ts": 1780997746.4527173
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Walking to town center then UP...",
+    "state": {
+      "map": 0,
+      "y": 12,
+      "x": 12,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 799
+    },
+    "ts": 1780997746.4547217
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Walking UP from center...",
+    "state": {
+      "map": 0,
+      "y": 12,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 1045
+    },
+    "ts": 1780997746.515742
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#0 y=11 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 11,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 1127
+    },
+    "ts": 1780997746.5359414
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#5 y=10 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 1537
+    },
+    "ts": 1780997746.6389108
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#10 y=10 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 1947
+    },
+    "ts": 1780997746.7409394
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#15 y=10 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 2357
+    },
+    "ts": 1780997746.8444836
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "North#20 y=10 x=7 map=0",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 2767
+    },
+    "ts": 1780997746.948517
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Still in Pallet, broader search...",
+    "state": {
+      "map": 0,
+      "y": 10,
+      "x": 7,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 3095
+    },
+    "ts": 1780997747.032691
+  },
+  {
+    "turn": 0,
+    "phase": "pallet",
+    "msg": "Found exit! map=12",
+    "state": {
+      "map": 12,
+      "y": 34,
+      "x": 11,
+      "battle": 1,
+      "party": 1,
+      "badges": 0,
+      "wy": 0,
+      "walk": 128,
+      "fr": 4735
+    },
+    "ts": 1780997747.416119
+  },
+  {
+    "turn": 0,
+    "phase": "route1",
+    "msg": "Route 1: map=12 y=34 x=11",
+    "state": {
+      "map": 12,
+      "y": 34,
+      "x": 11,
+      "battle": 1,
+      "party": 1,
+      "badges": 0,
+      "wy": 0,
+      "walk": 128,
+      "fr": 4735
+    },
+    "ts": 1780997747.416119
+  },
+  {
+    "turn": 0,
+    "phase": "route1",
+    "msg": "Wild battle #1 at step 0",
+    "state": {
+      "map": 12,
+      "y": 34,
+      "x": 11,
+      "battle": 1,
+      "party": 1,
+      "badges": 0,
+      "wy": 0,
+      "walk": 128,
+      "fr": 4735
+    },
+    "ts": 1780997747.4181209
+  },
+  {
+    "turn": 9,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 7317
+    },
+    "ts": 1780997748.0804095
+  },
+  {
+    "turn": 15,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 8301
+    },
+    "ts": 1780997748.3241262
+  },
+  {
+    "turn": 21,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 9285
+    },
+    "ts": 1780997748.5543754
+  },
+  {
+    "turn": 24,
+    "phase": "route1",
+    "msg": "Step 25: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 10023
+    },
+    "ts": 1780997748.7226555
+  },
+  {
+    "turn": 27,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 10269
+    },
+    "ts": 1780997748.7792163
+  },
+  {
+    "turn": 33,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 11253
+    },
+    "ts": 1780997749.0050066
+  },
+  {
+    "turn": 39,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 12237
+    },
+    "ts": 1780997749.233116
+  },
+  {
+    "turn": 45,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 13221
+    },
+    "ts": 1780997749.4578786
+  },
+  {
+    "turn": 49,
+    "phase": "route1",
+    "msg": "Step 50: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 14041
+    },
+    "ts": 1780997749.6475441
+  },
+  {
+    "turn": 51,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 14205
+    },
+    "ts": 1780997749.6846209
+  },
+  {
+    "turn": 57,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 15189
+    },
+    "ts": 1780997749.909105
+  },
+  {
+    "turn": 63,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 16173
+    },
+    "ts": 1780997750.1353998
+  },
+  {
+    "turn": 69,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 17157
+    },
+    "ts": 1780997750.3606524
+  },
+  {
+    "turn": 74,
+    "phase": "route1",
+    "msg": "Step 75: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 18059
+    },
+    "ts": 1780997750.565187
+  },
+  {
+    "turn": 75,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 18141
+    },
+    "ts": 1780997750.5857592
+  },
+  {
+    "turn": 81,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 19125
+    },
+    "ts": 1780997750.8141403
+  },
+  {
+    "turn": 87,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 20109
+    },
+    "ts": 1780997751.0469966
+  },
+  {
+    "turn": 93,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 21093
+    },
+    "ts": 1780997751.2736773
+  },
+  {
+    "turn": 99,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 22077
+    },
+    "ts": 1780997751.4964058
+  },
+  {
+    "turn": 99,
+    "phase": "route1",
+    "msg": "Step 100: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 22569
+    },
+    "ts": 1780997751.6079876
+  },
+  {
+    "turn": 105,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 23061
+    },
+    "ts": 1780997751.7207742
+  },
+  {
+    "turn": 111,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 24045
+    },
+    "ts": 1780997751.9529161
+  },
+  {
+    "turn": 117,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 25029
+    },
+    "ts": 1780997752.1788673
+  },
+  {
+    "turn": 123,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 26013
+    },
+    "ts": 1780997752.4038744
+  },
+  {
+    "turn": 124,
+    "phase": "route1",
+    "msg": "Step 125: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 26587
+    },
+    "ts": 1780997752.5327272
+  },
+  {
+    "turn": 129,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 26997
+    },
+    "ts": 1780997752.6256447
+  },
+  {
+    "turn": 135,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 27981
+    },
+    "ts": 1780997752.8480794
+  },
+  {
+    "turn": 141,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 28965
+    },
+    "ts": 1780997753.0722032
+  },
+  {
+    "turn": 147,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 29949
+    },
+    "ts": 1780997753.2998538
+  },
+  {
+    "turn": 149,
+    "phase": "route1",
+    "msg": "Step 150: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 30605
+    },
+    "ts": 1780997753.4472468
+  },
+  {
+    "turn": 153,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 30933
+    },
+    "ts": 1780997753.5218337
+  },
+  {
+    "turn": 159,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 31917
+    },
+    "ts": 1780997753.7428803
+  },
+  {
+    "turn": 165,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 32901
+    },
+    "ts": 1780997753.9668462
+  },
+  {
+    "turn": 171,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 33885
+    },
+    "ts": 1780997754.1903393
+  },
+  {
+    "turn": 174,
+    "phase": "route1",
+    "msg": "Step 175: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 34623
+    },
+    "ts": 1780997754.358594
+  },
+  {
+    "turn": 177,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 34869
+    },
+    "ts": 1780997754.4141946
+  },
+  {
+    "turn": 183,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 35853
+    },
+    "ts": 1780997754.6383693
+  },
+  {
+    "turn": 189,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 36837
+    },
+    "ts": 1780997754.8649254
+  },
+  {
+    "turn": 195,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 37821
+    },
+    "ts": 1780997755.0945158
+  },
+  {
+    "turn": 199,
+    "phase": "route1",
+    "msg": "Step 200: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 38641
+    },
+    "ts": 1780997755.2831855
+  },
+  {
+    "turn": 201,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 38805
+    },
+    "ts": 1780997755.321234
+  },
+  {
+    "turn": 207,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 39789
+    },
+    "ts": 1780997755.5426111
+  },
+  {
+    "turn": 213,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 40773
+    },
+    "ts": 1780997755.765919
+  },
+  {
+    "turn": 219,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 41757
+    },
+    "ts": 1780997755.988495
+  },
+  {
+    "turn": 224,
+    "phase": "route1",
+    "msg": "Step 225: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 42659
+    },
+    "ts": 1780997756.1945467
+  },
+  {
+    "turn": 225,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 42741
+    },
+    "ts": 1780997756.2135468
+  },
+  {
+    "turn": 231,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 43725
+    },
+    "ts": 1780997756.446541
+  },
+  {
+    "turn": 237,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 44709
+    },
+    "ts": 1780997756.680223
+  },
+  {
+    "turn": 243,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 45693
+    },
+    "ts": 1780997756.9048278
+  },
+  {
+    "turn": 249,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 46677
+    },
+    "ts": 1780997757.1316934
+  },
+  {
+    "turn": 249,
+    "phase": "route1",
+    "msg": "Step 250: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 47169
+    },
+    "ts": 1780997757.2420876
+  },
+  {
+    "turn": 255,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 47661
+    },
+    "ts": 1780997757.355056
+  },
+  {
+    "turn": 261,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 48645
+    },
+    "ts": 1780997757.578704
+  },
+  {
+    "turn": 267,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 49629
+    },
+    "ts": 1780997757.8025324
+  },
+  {
+    "turn": 273,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 50613
+    },
+    "ts": 1780997758.023138
+  },
+  {
+    "turn": 274,
+    "phase": "route1",
+    "msg": "Step 275: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 51187
+    },
+    "ts": 1780997758.1617477
+  },
+  {
+    "turn": 279,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 51597
+    },
+    "ts": 1780997758.258778
+  },
+  {
+    "turn": 285,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 52581
+    },
+    "ts": 1780997758.4830263
+  },
+  {
+    "turn": 291,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 53565
+    },
+    "ts": 1780997758.705788
+  },
+  {
+    "turn": 297,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 54549
+    },
+    "ts": 1780997758.926942
+  },
+  {
+    "turn": 299,
+    "phase": "route1",
+    "msg": "Step 300: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 55205
+    },
+    "ts": 1780997759.075995
+  },
+  {
+    "turn": 303,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 55533
+    },
+    "ts": 1780997759.1500201
+  },
+  {
+    "turn": 309,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 56517
+    },
+    "ts": 1780997759.3733704
+  },
+  {
+    "turn": 315,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 57501
+    },
+    "ts": 1780997759.5972283
+  },
+  {
+    "turn": 321,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 58485
+    },
+    "ts": 1780997759.8169918
+  },
+  {
+    "turn": 324,
+    "phase": "route1",
+    "msg": "Step 325: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 59223
+    },
+    "ts": 1780997759.9851525
+  },
+  {
+    "turn": 327,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 59469
+    },
+    "ts": 1780997760.0432835
+  },
+  {
+    "turn": 333,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 60453
+    },
+    "ts": 1780997760.26611
+  },
+  {
+    "turn": 339,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 61437
+    },
+    "ts": 1780997760.4934464
+  },
+  {
+    "turn": 345,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 62421
+    },
+    "ts": 1780997760.7167413
+  },
+  {
+    "turn": 349,
+    "phase": "route1",
+    "msg": "Step 350: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 63241
+    },
+    "ts": 1780997760.9039738
+  },
+  {
+    "turn": 351,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 63405
+    },
+    "ts": 1780997760.9420128
+  },
+  {
+    "turn": 357,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 64389
+    },
+    "ts": 1780997761.164786
+  },
+  {
+    "turn": 363,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 65373
+    },
+    "ts": 1780997761.3884673
+  },
+  {
+    "turn": 369,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 66357
+    },
+    "ts": 1780997761.6128552
+  },
+  {
+    "turn": 374,
+    "phase": "route1",
+    "msg": "Step 375: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 67259
+    },
+    "ts": 1780997761.816586
+  },
+  {
+    "turn": 375,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 67341
+    },
+    "ts": 1780997761.8391104
+  },
+  {
+    "turn": 381,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 68325
+    },
+    "ts": 1780997762.0634098
+  },
+  {
+    "turn": 387,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 69309
+    },
+    "ts": 1780997762.2857287
+  },
+  {
+    "turn": 393,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 70293
+    },
+    "ts": 1780997762.5094278
+  },
+  {
+    "turn": 399,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 71277
+    },
+    "ts": 1780997762.7321897
+  },
+  {
+    "turn": 399,
+    "phase": "route1",
+    "msg": "Step 400: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 71769
+    },
+    "ts": 1780997762.842792
+  },
+  {
+    "turn": 405,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 72261
+    },
+    "ts": 1780997762.9538548
+  },
+  {
+    "turn": 411,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 73245
+    },
+    "ts": 1780997763.176239
+  },
+  {
+    "turn": 417,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 74229
+    },
+    "ts": 1780997763.400367
+  },
+  {
+    "turn": 423,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 75213
+    },
+    "ts": 1780997763.6233394
+  },
+  {
+    "turn": 424,
+    "phase": "route1",
+    "msg": "Step 425: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 75787
+    },
+    "ts": 1780997763.755218
+  },
+  {
+    "turn": 429,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 76197
+    },
+    "ts": 1780997763.8483498
+  },
+  {
+    "turn": 435,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 77181
+    },
+    "ts": 1780997764.0701492
+  },
+  {
+    "turn": 441,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 78165
+    },
+    "ts": 1780997764.2942412
+  },
+  {
+    "turn": 447,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 79149
+    },
+    "ts": 1780997764.5201561
+  },
+  {
+    "turn": 449,
+    "phase": "route1",
+    "msg": "Step 450: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 79805
+    },
+    "ts": 1780997764.6702027
+  },
+  {
+    "turn": 453,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 80133
+    },
+    "ts": 1780997764.745287
+  },
+  {
+    "turn": 459,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 81117
+    },
+    "ts": 1780997764.9686723
+  },
+  {
+    "turn": 465,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 82101
+    },
+    "ts": 1780997765.1922128
+  },
+  {
+    "turn": 471,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 83085
+    },
+    "ts": 1780997765.4145381
+  },
+  {
+    "turn": 474,
+    "phase": "route1",
+    "msg": "Step 475: m=12 y=28 x=11 battles=1",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 83823
+    },
+    "ts": 1780997765.5820444
+  },
+  {
+    "turn": 477,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 84069
+    },
+    "ts": 1780997765.6386385
+  },
+  {
+    "turn": 483,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 85053
+    },
+    "ts": 1780997765.8616977
+  },
+  {
+    "turn": 489,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 86037
+    },
+    "ts": 1780997766.0866818
+  },
+  {
+    "turn": 495,
+    "phase": "route1",
+    "msg": "Stuck at y=28 x=11, detour",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 87021
+    },
+    "ts": 1780997766.3090324
+  },
+  {
+    "turn": 499,
+    "phase": "route1",
+    "msg": "DONE: 20.3s | Viridian=False",
+    "state": {
+      "map": 12,
+      "y": 28,
+      "x": 11,
+      "battle": 0,
+      "party": 1,
+      "badges": 0,
+      "wy": 144,
+      "walk": 128,
+      "fr": 87759
+    },
+    "ts": 1780997766.4748235
+  }
+]
